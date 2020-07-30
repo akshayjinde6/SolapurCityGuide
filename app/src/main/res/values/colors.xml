@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#1daa00</color>
     <color name="colorSecondary">#dc1616</color>
     <color name="colorSecondaryDark">#a20000</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorOrange">#ef6c00</color>
+
 </resources>

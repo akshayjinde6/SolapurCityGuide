@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="~ आ प लं   सो ला पू र ~"
+            android:textColor="@color/colorSecondary"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/menuText"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_more_vert_24" />
+
+    </RelativeLayout>
+
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_below="@id/heading"
         android:fontFamily="@font/secular_one"
         android:gravity="center"
-        android:text="सोलापूर  च्या  पावन  नगरीत  आपले \nसहर्ष  स्वागत  आहे"
-        android:textColor="@android:color/black"
+        android:padding="5dp"
+        android:text="@string/welcomeMsg"
         android:textSize="20sp"
+        android:textColor="@color/colorOrange"
         android:textStyle="bold" />
 
     <androidx.cardview.widget.CardView
@@ -61,7 +92,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:fontFamily="@font/secular_one"
-                android:text="धार्मिक स्थळे"
+                android:text="महत्वाची धार्मिक \nस्थळे"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -113,7 +144,7 @@
                 android:gravity="center"
                 android:background="@drawable/gradient_3"
                 android:fontFamily="@font/secular_one"
-                android:text="रेल्वे वेळापत्रक"
+                android:text="IRCTC\nरेल्वे वेळापत्रक"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
@@ -138,7 +169,7 @@
                 android:gravity="center"
                 android:background="@drawable/gradient_5"
                 android:fontFamily="@font/secular_one"
-                android:text="     MSRTC\n बस वेळापत्रक"
+                android:text=" MSRTC\nबस वेळापत्रक"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
