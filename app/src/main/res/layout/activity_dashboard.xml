@@ -22,9 +22,9 @@
             android:fontFamily="@font/secular_one"
             android:gravity="center"
             android:padding="5dp"
-            android:text="~ आ प लं   सो ला पू र ~"
+            android:text="@string/app_name1"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
 
         <ImageButton
             android:id="@+id/menu"
@@ -47,7 +47,7 @@
         android:gravity="center"
         android:padding="5dp"
         android:text="@string/welcomeMsg"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textColor="@color/colorSecondary"
         android:textStyle="bold" />
 
@@ -74,8 +74,36 @@
         android:layout_height="match_parent"
         android:layout_below="@id/imageSlider"
         android:columnCount="2"
-        android:rowCount="2"
+        android:rowCount="3"
         android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/history"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="32dp"
+            app:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient_6"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:text="सोलापूरचा\nइतिहास"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/devotional"
@@ -83,12 +111,12 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_row="0"
-            android:layout_column="0"
+            android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="48dp"
+            app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
             <TextView
@@ -96,7 +124,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:fontFamily="@font/secular_one"
-                android:text="महत्वाची धार्मिक \nस्थळे"
+                android:text="धार्मिक स्थळे"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -111,12 +139,12 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:layout_row="0"
-            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_column="0"
             android:layout_margin="10dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="48dp"
+            app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
             <TextView
@@ -140,11 +168,11 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_row="1"
-            android:layout_column="0"
+            android:layout_column="1"
             android:layout_margin="10dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="48dp"
+            app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
             <TextView
@@ -157,7 +185,7 @@
                 android:text="IRCTC\nरेल्वे वेळापत्रक"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
 
@@ -165,14 +193,42 @@
             android:id="@+id/bus"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="32dp"
+            app:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/gradient_5"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:text=" MSRTC\nबस वेळापत्रक"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/emergency"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:layout_row="1"
+            android:layout_row="2"
             android:layout_column="1"
             android:layout_margin="10dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="48dp"
+            app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
             <TextView
@@ -180,9 +236,9 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:background="@drawable/gradient_5"
+                android:background="@drawable/gradient_7"
                 android:fontFamily="@font/secular_one"
-                android:text=" MSRTC\nबस वेळापत्रक"
+                android:text="अत्यावश्यक सेवा"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"/>

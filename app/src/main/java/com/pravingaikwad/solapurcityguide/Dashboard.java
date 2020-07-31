@@ -1,6 +1,7 @@
 package com.pravingaikwad.solapurcityguide;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -15,8 +16,9 @@ import android.widget.ViewFlipper;
 public class Dashboard extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
 
     ViewFlipper viewFlipper;
-    private static String APP_URL = "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID;
+    static String APP_URL = "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID;
     ImageButton menuButton;
+    CardView history, devotional, tourism, train, bus, emergency;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,12 @@ public class Dashboard extends AppCompatActivity implements PopupMenu.OnMenuItem
 
         viewFlipper = findViewById(R.id.slideshow);
         menuButton = findViewById(R.id.menu);
+        history = findViewById(R.id.history);
+        devotional = findViewById(R.id.devotional);
+        tourism = findViewById(R.id.local);
+        train = findViewById(R.id.train);
+        bus = findViewById(R.id.bus);
+        emergency = findViewById(R.id.emergency);
 
         menuButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +46,13 @@ public class Dashboard extends AppCompatActivity implements PopupMenu.OnMenuItem
         for (int image : images) {
             imageSlider(image);
         }
+
+        devotional.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Devotional.class));
+            }
+        });
     }
 
     private void showMenu(View v) {
