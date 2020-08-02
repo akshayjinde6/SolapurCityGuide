@@ -53,6 +53,12 @@ public class Dashboard extends AppCompatActivity implements PopupMenu.OnMenuItem
                 startActivity(new Intent(getApplicationContext(), Devotional.class));
             }
         });
+        tourism.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Tourism.class));
+            }
+        });
     }
 
     private void showMenu(View v) {
