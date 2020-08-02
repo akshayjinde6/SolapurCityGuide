@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Devo_info">
+
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/gradient_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/app_name1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@id/heading"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sid" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/secular_one"
+        android:text="श्री सिद्धेश्वर मंदिर, सोलापूर"
+        android:textColor="@color/colorSecondaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="10dp"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:text=" सोलापूर शहर"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="भुईकोट किल्ल्याच्या सभोवतालच्या तलावाच्या मध्ये स्थित, सिद्धेश्वर मंदिर भगवान शिव आणि भगवान विष्णू यांचा अवतार मानल्या जाणार्‍या भगवान सिद्धेश्वरासाठी पवित्र आहे. श्री सिद्धेश्वर समाधी घेतलेले हे स्थान म्हणूनच मंदिर भक्तांनी खूप आदर केला आहे. मुख्य मंदिर संकुलात, एक सुंदर गर्भगृह आहे, ज्यामध्ये सिद्धेश्वरची मूर्ती आहे. मुख्य प्रांगणात, तेथे 68 शिवलिंगे आहेत, जी भगवान सिद्धेश्वरांनी स्थापित केली होती. अमृत ​​लिंग आणि भगवान गणेश मंदिरांचा विशेष उल्लेख आहे. चांदीच्या मुलामा असलेली नंदी, विठोबाचे मंदिर आणि देवी रुक्मिणी आणि इतर अनेक देवता मंदिराचा एक भाग आहेत. मंदिराच्या मध्यभागी सिद्धेश्वरची संगमरवरी समाधी आहे. येथील सर्व भाविकांना महाप्रसाद दिला जातो."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" />
+
+</RelativeLayout>

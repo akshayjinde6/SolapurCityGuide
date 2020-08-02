@@ -42,7 +42,7 @@ public class Dashboard extends AppCompatActivity implements PopupMenu.OnMenuItem
         });
 
         //Image Sliding
-        int[] images = {R.drawable.siddheshwartemple, R.drawable.siddheshwartemple};
+        int[] images = {R.drawable.sid, R.drawable.mnc, R.drawable.rani, R.drawable.rang, R.drawable.train};
         for (int image : images) {
             imageSlider(image);
         }
