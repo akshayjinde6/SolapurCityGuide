@@ -1,9 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".History">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/gradient_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/app_name1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@id/heading"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/solapur" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/secular_one"
+        android:gravity="center"
+        android:text="आपला  इतिहास"
+        android:textColor="@color/colorSecondaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="          हे महाराष्ट्रातील एक प्रमुख शहर असून ते पश्चिम महाराष्ट्र या विभागात येते.सोलापूर हे महाराष्ट्रातील ५ वे मोठे शहर आहे. ते सोलापूर जिल्ह्याचे प्रशासकीय मुख्यालय आहे. सोलापूरला कापड गिरण्यांचे शहर म्हटले जाते. सोलापूर या शहराला प्राचीन काळात सोन्नलागी किंवा सोन्नलापूर म्हणूनसुद्धा ओळखले जात असे. हे शहर भारतातील मुख्य अशा उत्तर-दक्षिण रेल्वे मार्गावर असल्याने त्यास महत्त्व प्राप्त झाले आहे. स्वातंत्र्यप्राप्तीपूर्वीच सोलापूर शहराने ९-११ मे १९३० या काळात ३ दिवसांचे स्वातंत्र्य उपभोगले. या घटनेमुळे स्वातंत्र्य संग्रामादरम्यान मलप्पा धनशेट्टी, जगन्नाथ शिंदे, कुर्बान हुसेन व किसन सारडा यांना जानेवारी १२, १९३१ रोजी ब्रिटिशांनी सोलापूरमध्ये फाशी दिली. तेव्हापासून शहरास हुतात्म्यांचे शहर म्हणून ओळखले जाते. विडी उत्पादनात सोलापूरचा महाराष्ट्रात वरचा क्रमांक आहे तर 'सोलापुरी चादरी' प्रसिद्ध आहेत.
+सोलापूराचे प्राचीन म्हणजे १२व्या शतकातील रहिवासी श्री.शिवयोगी सिद्धेश्वर यांनी या परिसरात अडुसष्ट शिवलिंगांची स्थापना केली वीरशैव धर्माच्या (शैव पंथ) माध्यमातून समाज सुधारणांचे काम केले. सोलापूर तलाव बांधून त्यांनी सोलापूराची पाणी समस्या सोडवली.
+    पंढरपूर हे महाराष्ट्राचे कुलदैवत सोलापूरजवळ असून अक्कलकोटचे प्रसिद्ध स्वामी समर्थ मंदिर सोलापूर जिल्ह्यात आहे. बार्शी येथे भगवंताचे म्हणून ओळखले जाणारे विष्णूचे प्राचीन मंदिर आहे येथील शिवगंगा मातेच्या मंदिराचा कळस शंभर तोळे सोन्यापासून बनलेला आहे, आणि दरवाजा ऐंशी किलो चांदीपासून बनलेला आहे. सोलापूर येथील भुईकोट किल्ला, सिद्धेश्वर मंदिर, मल्लिकार्जुन मंदिर, हुतात्मा बाग, इंद्रभुवन (महानगर पालिका इमारत), शुभराय आर्ट गॅलरी, स्मृती उद्यान ही भेट देण्यासारखी ठिकाणे आहेत. हुतात्मा स्मृती मंदिर येथे अनेक कला प्रदर्शन आणि नाट्यप्रयोग मोठ्या प्रमाणात होत असतात. सोलापूरमध्ये दरवर्षी सिद्धेश्वर यात्रा म्हणजेच गड्डा  ही मोठी यात्रा असते. कर्नाटक परिसरातून लोक येतात. सरकारच्या स्मार्ट सिटींमध्ये सोलापूरचे नाव यादीत समाविष्ट झाल्याने आता सोलापूरही स्मार्ट शहर बनण्याकडे वाटचाल करताना दिसते आहे."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/itihas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:fontFamily="@font/secular_one"
+                android:padding="10dp"
+                android:text="इतिहास"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/nav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:fontFamily="@font/secular_one"
+                android:padding="10dp"
+                android:text="नाव"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bhugol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:fontFamily="@font/secular_one"
+                android:padding="10dp"
+                android:text="भूगोल"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/jai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:fontFamily="@font/secular_one"
+                android:padding="10dp"
+                android:text="जैवविविधता"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bajar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:fontFamily="@font/secular_one"
+                android:padding="10dp"
+                android:text="बाजारपेठ"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/prashashan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:fontFamily="@font/secular_one"
+                android:padding="10dp"
+                android:text="प्रशाशन"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/awa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:fontFamily="@font/secular_one"
+                android:padding="10dp"
+                android:text="आवांतर"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
