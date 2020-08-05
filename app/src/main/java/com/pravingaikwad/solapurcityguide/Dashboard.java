@@ -47,6 +47,12 @@ public class Dashboard extends AppCompatActivity implements PopupMenu.OnMenuItem
             imageSlider(image);
         }
 
+        history.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), History.class));
+            }
+        });
         devotional.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
