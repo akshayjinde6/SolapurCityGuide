@@ -40,5 +40,29 @@ public class Devotional extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        pan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), Devo_info.class);
+                i.putExtra("dev", "pan");
+                startActivity(i);
+            }
+        });
+        akka.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), Devo_info.class);
+                i.putExtra("dev", "gan");
+                startActivity(i);
+            }
+        });
+        bar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), Devo_info.class);
+                i.putExtra("dev", "bar");
+                startActivity(i);
+            }
+        });
     }
 }

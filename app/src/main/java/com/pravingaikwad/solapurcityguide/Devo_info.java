@@ -50,12 +50,12 @@ public class Devo_info extends AppCompatActivity {
         if (dev.equals("akka")) {
             name.setText(R.string.akkalkot_temple_name);
             location.setText(R.string.akka_location);
-            tul.setVisibility(View.VISIBLE);
+            akka.setVisibility(View.VISIBLE);
         }
         if (dev.equals("bar")) {
             name.setText(R.string.barshi_temple_name);
             location.setText(R.string.bar_location);
-            tul.setVisibility(View.VISIBLE);
+            bar.setVisibility(View.VISIBLE);
         }
     }
 }
