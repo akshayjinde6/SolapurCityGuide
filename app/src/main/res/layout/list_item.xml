@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="N B Navale Sinhgad College Of Engineering, Solapur"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_name"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/secular_one"
+                android:text="Solapur Pune National Highway Kegaon Solapur"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/location"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/secular_one"
+                android:text="principal.nbnscoe@spspm.org"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:drawableLeft="@drawable/ic_baseline_phone_24"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/secular_one"
+                android:text="02172500610"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorSecondary" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
