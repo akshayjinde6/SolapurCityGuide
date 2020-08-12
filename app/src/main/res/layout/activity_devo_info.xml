@@ -28,14 +28,11 @@
 
     </RelativeLayout>
 
-    <ImageView
+    <ViewFlipper
         android:id="@+id/image"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
         android:layout_below="@id/heading"
-        android:layout_marginBottom="10dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/sid" />
+        android:layout_height="220dp" />
 
     <TextView
         android:id="@+id/name"
@@ -57,13 +54,41 @@
         android:layout_marginStart="10dp"
         android:fontFamily="@font/secular_one"
         android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:layout_marginBottom="10dp"
         android:text=" सोलापूर शहर"
+        android:drawablePadding="5dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/secular_one"
+        android:text="@string/sid_contact"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/secular_one"
+        android:text="@string/sid_mail"
         android:textSize="14sp" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/location"
+        android:layout_below="@id/mail"
         android:layout_marginBottom="10dp">
 
         <LinearLayout

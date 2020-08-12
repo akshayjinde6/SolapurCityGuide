@@ -52,6 +52,14 @@ public class Devotional extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), Devo_info.class);
+                i.putExtra("dev", "akka");
+                startActivity(i);
+            }
+        });
+        gan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), Devo_info.class);
                 i.putExtra("dev", "gan");
                 startActivity(i);
             }

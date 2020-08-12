@@ -64,17 +64,33 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_3"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="श्री सिद्धेश्वर मंदिर,\n सोलापूर"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/devo"
+                    android:translationX="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="श्री सिद्धेश्वर मंदिर,\n सोलापूर"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -92,17 +108,33 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_1"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="श्री तुळजाभवानी मंदिर,\n तुळजापूर"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/devo"
+                    android:translationX="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="श्री तुळजाभवानी मंदिर,\n तुळजापूर"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -120,17 +152,33 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_2"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="श्री विठ्ठल रुक्मिणी मंदिर,\n पंढरपूर"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/devo"
+                    android:translationX="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="श्री विठ्ठल रुक्मिणी मंदिर,\n पंढरपूर"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -148,17 +196,33 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_5"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="श्री स्वामी समर्थ मंदिर,\n अक्कलकोट"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/devo"
+                    android:translationX="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="श्री स्वामी समर्थ मंदिर,\n अक्कलकोट"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -176,17 +240,33 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_6"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="श्री दत्तात्रय मंदिर,\n गाणगापूर"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/devo"
+                    android:translationX="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="श्री दत्तात्रय मंदिर,\n गाणगापूर"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -204,17 +284,33 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_7"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="श्री भागवत मंदिर,\n बार्शी"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/devo"
+                    android:translationX="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="श्री भागवत मंदिर,\n बार्शी"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
