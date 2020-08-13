@@ -37,6 +37,11 @@ public class Devo_info extends AppCompatActivity {
         Intent i = getIntent();
 
         int[] sidImages = {R.drawable.sid, R.drawable.sid2, R.drawable.sid3};
+        int[] tulImages = {R.drawable.tul1, R.drawable.tul2, R.drawable.tul3};
+        int[] panImages = {R.drawable.pan1, R.drawable.pan2, R.drawable.pan3};
+        int[] akkaImages = {R.drawable.akka1, R.drawable.akka2, R.drawable.akka3};
+        int[] ganImages = {R.drawable.gan1, R.drawable.gan2, R.drawable.gan3};
+        int[] barImages = {R.drawable.bar1, R.drawable.bar2, R.drawable.bar3};
 
         dev = i.getStringExtra("dev");
         if (dev.equals("sid")) {
@@ -46,6 +51,9 @@ public class Devo_info extends AppCompatActivity {
             sid.setVisibility(View.VISIBLE);
         }
         if (dev.equals("tul")) {
+            for (int image : tulImages) {
+                imageSlider(image);
+            }
             name.setText(R.string.tuljapur_name);
             location.setText(R.string.tuljapur_location);
             contact.setText(R.string.tal_contact);
@@ -53,6 +61,9 @@ public class Devo_info extends AppCompatActivity {
             tul.setVisibility(View.VISIBLE);
         }
         if (dev.equals("pan")) {
+            for (int image : panImages) {
+                imageSlider(image);
+            }
             name.setText(R.string.pandharpur_temple_name);
             location.setText(R.string.pan_location);
             contact.setText(R.string.pan_contact);
@@ -60,6 +71,9 @@ public class Devo_info extends AppCompatActivity {
             pan.setVisibility(View.VISIBLE);
         }
         if (dev.equals("gan")) {
+            for (int image : ganImages) {
+                imageSlider(image);
+            }
             name.setText(R.string.gangapur_temple_name);
             location.setText(R.string.gan_location);
             contact.setText(R.string.gan_contact);
@@ -67,6 +81,9 @@ public class Devo_info extends AppCompatActivity {
             gan.setVisibility(View.VISIBLE);
         }
         if (dev.equals("akka")) {
+            for (int image : akkaImages) {
+                imageSlider(image);
+            }
             name.setText(R.string.akkalkot_temple_name);
             location.setText(R.string.akka_location);
             contact.setText(R.string.akka_contact);
@@ -74,6 +91,9 @@ public class Devo_info extends AppCompatActivity {
             akka.setVisibility(View.VISIBLE);
         }
         if (dev.equals("bar")) {
+            for (int image : barImages) {
+                imageSlider(image);
+            }
             name.setText(R.string.barshi_temple_name);
             location.setText(R.string.bar_location);
             contact.setText(R.string.bar_contact);
