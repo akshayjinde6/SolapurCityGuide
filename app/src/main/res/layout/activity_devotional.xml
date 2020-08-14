@@ -37,8 +37,8 @@
         android:fontFamily="@font/secular_one"
         android:gravity="center"
         android:padding="10dp"
-        android:text="महत्वाची धार्मिक स्थळे"
-        android:textColor="@color/colorSecondary"
+        android:text="* महत्वाची धार्मिक स्थळे *"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         android:textStyle="bold" />
 

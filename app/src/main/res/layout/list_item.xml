@@ -7,13 +7,13 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="wrap_content"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/item_name"
@@ -40,23 +40,10 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/location"
-                android:layout_marginStart="10dp"
-                android:layout_marginBottom="15dp"
-                android:drawableLeft="@drawable/ic_baseline_email_24"
-                android:drawablePadding="5dp"
-                android:fontFamily="@font/secular_one"
-                android:text="principal.nbnscoe@spspm.org"
-                android:textSize="14sp" />
-
-            <TextView
                 android:id="@+id/contact"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/email"
+                android:layout_below="@id/location"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="15dp"
                 android:drawableLeft="@drawable/ic_baseline_phone_24"
@@ -69,14 +56,14 @@
                 android:id="@+id/view"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_alignParentBottom="true"
+                android:layout_below="@id/contact"
                 android:background="@color/colorSecondary" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
+                android:layout_below="@id/contact"
                 android:padding="8dp"
                 android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
 

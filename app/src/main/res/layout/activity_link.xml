@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Link">
+
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/gradient_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/app_name1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/top_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:fontFamily="@font/secular_one"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="* महत्वाची संकेतस्थळे *"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_heading">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mnc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="सोलापूर महानगरपालिका"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mnc"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="पोलीस आयुक्तालय"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cop"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="पोलीस अधीक्षक"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/zp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sop"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="जिल्हा परिषद"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zp"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="जिल्हा न्यायालय"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/su"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dc"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="सोलापूर विद्यापीठ"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/pan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/su"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="विठ्ठल रुक्मिणी मंदिर समिती, पंढरपूर"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/pomo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pan"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="राष्ट्रीय डाळिंब संशोधन केंद्र"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pomo"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="सयाजीराजे वॉटर पार्क, अकलूज"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/akka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/water"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_public_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/secular_one"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="20dp"
+                android:text="श्री स्वामी समर्थ अन्नछत्र मंडळ ट्रस्ट, अक्कलकोट"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -368,7 +368,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/secular_one"
                     android:gravity="center"
-                    android:text="महत्वाचे\n लिंक्स"
+                    android:text="महत्वाची\nसंकेतस्थळे"
                     android:textColor="@android:color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
