@@ -25,7 +25,7 @@ public class Link extends AppCompatActivity {
         su = findViewById(R.id.su);
         pan = findViewById(R.id.pan);
         akka = findViewById(R.id.akka);
-        pomo = findViewById(R.id.pomo);
+        pomo = findViewById(R.id.npr);
         water = findViewById(R.id.water);
 
         mnc.setOnClickListener(new View.OnClickListener() {
@@ -60,6 +60,13 @@ public class Link extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("https://ecourts.gov.in/solapur"));
+                startActivity(i);
+            }
+        });
+        su.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("https://su.digitaluniversity.ac/"));
                 startActivity(i);
             }
         });

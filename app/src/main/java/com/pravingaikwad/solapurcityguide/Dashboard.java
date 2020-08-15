@@ -18,7 +18,7 @@ public class Dashboard extends AppCompatActivity implements PopupMenu.OnMenuItem
     ViewFlipper viewFlipper;
     static String APP_URL = "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID;
     ImageButton menuButton;
-    CardView history, devotional, tourism, train, bus, emergency;
+    CardView history, devotional, tourism, train, bus, emergency, links, talent, social;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,9 @@ public class Dashboard extends AppCompatActivity implements PopupMenu.OnMenuItem
         train = findViewById(R.id.train);
         bus = findViewById(R.id.bus);
         emergency = findViewById(R.id.emergency);
+        links = findViewById(R.id.links);
+        talent = findViewById(R.id.talent);
+        social = findViewById(R.id.social_media);
 
         menuButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,6 +84,24 @@ public class Dashboard extends AppCompatActivity implements PopupMenu.OnMenuItem
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), Emergency.class));
+            }
+        });
+        links.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Link.class));
+            }
+        });
+        talent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Talent.class));
+            }
+        });
+        social.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), SocialMedia.class));
             }
         });
     }
