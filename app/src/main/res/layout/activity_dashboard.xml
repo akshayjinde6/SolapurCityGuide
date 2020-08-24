@@ -197,7 +197,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/secular_one"
                     android:gravity="center"
-                    android:text="पर्यटन आणि स्थानिक स्थळे"
+                    android:text=" स्थानिक\nस्थळे"
                     android:textColor="@android:color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -231,7 +231,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="8dp"
                     android:layout_weight="1"
-                    android:src="@drawable/train1" />
+                    android:src="@drawable/tourism1" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -240,7 +240,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/secular_one"
                     android:gravity="center"
-                    android:text="IRCTC\nरेल्वे वेळापत्रक"
+                    android:text="पर्यटन आणि \nमनोरंजन"
                     android:textColor="@android:color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />

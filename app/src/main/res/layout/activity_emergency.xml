@@ -1,9 +1,477 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Emergency">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/gradient_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/app_name1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/top_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:fontFamily="@font/secular_one"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="* अत्यावश्यक सेवा *"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_heading"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="अग्निशामक दल"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/fire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="101 ,  2740364,  2740368"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="पोलीस नियंत्रण कक्ष  (शहर)"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/police_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="100 , 744600"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="पोलीस नियंत्रण कक्ष  (ग्रामीण)"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/police_gramin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2732000 , 2732009 , 2732010"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="रुग्नवाहिका"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ambulence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2732000 , 2732009 , 2732010"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="सिविल हॉस्पिटल"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/civil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2319060 , 271900"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="महिला हेल्पलाइन"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ladies_help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="1091"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="चाइल्ड हेल्पलाइन"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/child_help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="1098"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="रोड अपघात"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/accident"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="1073"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="शवरथ"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shavrath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2328233"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="विद्युत पुरवठा शहर नियंत्रण"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/electricity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2749847"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="विज वितरण कंपनी"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/electricity_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="18002333435"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="सोलापुर तक्रार केंद्र"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/solapur_complaint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2749875 , 2749876 , 2749878"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="पाणी पुरवठा शहर (सिग्रिगेशन)"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/water_segri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2740362 , 2740363"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="पाणी पुरवठा (टैंकरद्वारे)"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/water_tanker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2740367"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="क्रेन"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/crane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="9850303017 , 9850890674"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="महापालिका तक्रार निवारण केंद्र"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/mnc_complaint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2740376"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="नैसर्गिक आपत्ती (जिल्हाधिकारी कार्यालय)"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/natural_dia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="1077 , 2731012"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="विमानतळ"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/airport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2607071"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="अतिक्रमण हटाव"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/atikraman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2735232"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

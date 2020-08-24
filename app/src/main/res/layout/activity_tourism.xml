@@ -49,33 +49,6 @@
         android:padding="10dp"
         android:rowCount="3">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/siddheshwar"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_row="0"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_margin="10dp"
-            android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="32dp"
-            app:cardElevation="6dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:background="@drawable/gradient_6"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="पर्यटन आणि \nमनोरंजन"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/tuljapur"
@@ -83,7 +56,7 @@
             android:layout_height="0dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
-            android:layout_column="1"
+            android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             android:clickable="true"
@@ -109,9 +82,9 @@
             android:id="@+id/pandharpur"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_row="1"
+            android:layout_row="0"
             android:layout_rowWeight="1"
-            android:layout_column="0"
+            android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             android:clickable="true"
@@ -139,7 +112,7 @@
             android:layout_height="0dp"
             android:layout_row="1"
             android:layout_rowWeight="1"
-            android:layout_column="1"
+            android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             android:clickable="true"
@@ -165,9 +138,9 @@
             android:id="@+id/ganangapur"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_row="2"
+            android:layout_row="1"
             android:layout_rowWeight="1"
-            android:layout_column="0"
+            android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             android:clickable="true"
@@ -194,8 +167,9 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_row="2"
+            android:layout_column="0"
             android:layout_rowWeight="1"
-            android:layout_column="1"
+            android:layout_columnSpan="2"
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             android:clickable="true"
