@@ -1,9 +1,1002 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Train">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/gradient_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/app_name1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/top_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:fontFamily="@font/secular_one"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="* सोलापूर जिल्ह्यातील व जवळील पर्यटन स्थळे *"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_heading">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_mnc" />
+
+                    <TextView
+                        android:id="@+id/item_name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img1"
+                        android:fontFamily="@font/secular_one"
+                        android:text="1) सोलापूर महानगरपालिका"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name1"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img1"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location1"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tमहानगरपालिकेची इमारत रावसाहेब मल्लप्पा वारद यांनी बांधली. शेतीचा ट्रॅक्टर भारतात आणणारे ते पहिले होते. ही इमारत
+काही सार्वजनिक उद्देशाने वापरली जावी अशी त्यांची इच्छा होती आणि अशा प्रकारे इमारत नगर परिषद बनविली गेली. या
+इमारतीला इंद्र भवन असे म्हणतात ज्याचा अर्थ &#39;इंद्राचा निवास&#39; (भगवान इंद्र) आहे. मल्लप्पा वारद हे क्वीन व्हिक्टोरिया
+अंतर्गत असलेल्या चेंबर ऑफ मर्चंट्सच्या दहा सदस्यांपैकी एक होते. 1930 मध्ये सोलापूर नगर परिषद ही
+नगरपरिषदेच्या इमारतीवर भारतीय राष्ट्रध्वज फडकविणारी पहिली नगर परिषद होती."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info1"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_aajoba_ganpati" />
+
+                    <TextView
+                        android:id="@+id/item_name2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img2"
+                        android:fontFamily="@font/secular_one"
+                        android:text="2) आजोबा गणपती"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name2"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img2"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर शहर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location2"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tसोलापुरातील गणेशोत्सवाला १०० वर्षांची परंपरा आहे. सोलापूरच्या आजोबा गणपतीला सुमारे १३२ वर्षांची तेजस्वी परंपरा
+आहे. धार्मिक कार्यक्रमांतून निर्माण होणारे बळ राष्ट्रीय चळवळीसाठी वापरावे आणि स्वातंत्र्याची चळवळ सामान्य जनतेपर्यंत
+पोहोचवून तरुणांना संघटित करण्यासाठी लोकमान्य टिळकांनी १८९४मध्ये गणेशोत्सवाला सार्वजनिक स्वरूप दिले. त्या आधी
+आठ वर्षे सोलापुरात १८८५ मध्ये शुक्रवार पेठेतील जुन्या पिढीतील मंडळींनी एकत्रित येऊन सार्वजनिक स्वरूपात आजोबा
+गणपतीची प्रतिष्ठापना केली होती. शुक्रवार पेठेतील जुन्या पिढीतील प्रमुख कार्यकर्ते महालिंगप्पा वजीरकर, मल्लिकार्जुनप्पा
+कावळे, मल्लिकार्जुनप्पा शेटे, संगणबसय्या नंदीमठ, देवबा मंठाळकर, देशमुख, गणेचारी, शिरगिरी, नंद्याळ, आवटे या
+विविध घराण्यांतील व्यक्तींनी एकत्रित येऊन १८८५ मध्ये सार्वजनिक आजोबा गणपतीची प्रतिष्ठापना केली.आजोबा
+गणपतीची पहिली मूर्ती नीलप्पा उजळंबे, आडव्यप्पा माळगे, आवटे या मूर्तिकारांनी कामठ्या, रद्दीचा कागद, खळ,
+चिंचुक्याचे पीठ आणि कापड आदी वस्तू वापरून ही मूर्ती साकारली होती. आजोबा गणपती सुरुवातीला शुक्रवार पेठेतील शेटे
+यांच्या घरासमोर आणि त्यानंतर त्रिपुरंतकेश्वर मंदिरात बसवून तेथेच गणेशोत्सव साजरा करण्यात येत होता. नंतर उत्सव
+साजरा करण्यासाठी बसवेश्वर मंडळाची स्थापना करण्यात आली. सिद्रामप्पा फुलारी, पंचप्पा जिरगे, इरय्या स्वामी,
+अण्णाराव वजीरकर, हत्तुरे, नंदीमठ, ढवणे यांचा या मंडळामध्ये समावेश होता. श्री सिद्धेश्वर मंदिरात शिखराच्या कामासाठी
+केरळचे कलाकार आल्यानंतर आजोबा गणपतीची जुनी मूर्ती जीर्ण झाल्यामुळे त्यांच्याकडून सध्याची नवीन आकर्षक मूर्ती
+तयार करून घेण्यात आली आणि नंतर जुन्या मूर्तीचे टाकळी येथे भीमा नदीत विसर्जन करण्यात आले. माजी महापौर
+विश्वनाथ बनशेट्टी आणि गौरीशंकर फुलारी यांच्या नेतृत्वाखाली १९९४ मध्ये माणिक चौकाजवळ आजोबा गणपतीचे सुंदर
+मंदिर उभारण्यात आले."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info2"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t2"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_bhuikot_fort" />
+
+                    <TextView
+                        android:id="@+id/item_name3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img3"
+                        android:fontFamily="@font/secular_one"
+                        android:text="3) सोलापूरचा भुईकोट"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name3"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img3"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर शहर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location3"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tभारत सरकारने या किल्ल्याला दिनांक ४ डिसेंबर, इ.स. १९३० रोजी महाराष्ट्रातील राष्ट्रीय संरक्षित स्मारक म्हणून घोषित
+केलेले आहे. तज्ज्ञांच्या माहिती नुसार सोलापूरचा किल्‍ला हा श्रीकांत यांनी १७१९ साली आपल्या प्रज्ञा साठी बांधला. काहींच्या
+मते हिंदू राजांच्या काळात बांधलेल्या या किल्ल्याभोवती महमूद गावान याने दुसरी तटबंदी बाहेरून बांधून किल्ला अभेद्य
+केला. महमूद गावान हा बहमनी सुलतान महंमदशाह याचा दिवाण होता.इतिहासातील अनेक घटनांचा साक्षीदार असलेला
+सोलापूरचा किल्ल्या अनेक राजवटीचे आश्रय स्थान होता. या ऐतिहासिक घटनांमध्ये एक गमतीशीर मजाही आहे. ती म्हणजे
+&#39;सोलापूरचा किल्ल्‍ला&#39; हा लग्नामध्ये हुंडा म्हणून दिल्याची नोंद आहे.ही नोंद एकदा नाही तर दोन वेळा आहे.सोलापूरचा
+किल्‍ला दुहेरी तटबंदीचा आहे. खंदकाच्या आत असलेल्या या दुहेरी तटबंदीमुळे सोलापूरचा किल्‍ला अभेद्य आणि बलदंड
+झालेला आहे. याच्या बाहेरील तटबंदीमध्ये चार कोपऱ्यांवर चार बलदंड बुरूज आहेत. या बुरुजांना एकमेकांना जोडणाऱ्या
+तटबंदीमध्ये आणखी २२ बुरूज बांधून बुरुजांची एकभक्कम साखळीच निर्माण करण्यात आली. साधारण तीस फूट उंचीची
+तटबंदी असून त्यावर जागोजाग माऱ्यासाठी छिद्रे केलेली दिसतात. बुरुजांवर तोफा ठेवण्याची सोय करण्यात आली
+आहे.बाहेरील भक्कम तटबंदीच्या आत असलेली दुसरी तटबंदी उंच आहे. याच्याही चार कोपऱ्यांवर चार बुरूज असून ते
+अधिकच उंच बांधण्यात आलेले आहेत. या बुरुजांवरून दूरवर टेहळणी करता येत असे. किल्ल्याच्या एका बाजूला सिद्धेश्वर
+तलावामुळे नैसर्गिकपणा आला आहे.सोलापूरचा किल्‍ला हा पुरातत्त्वखात्याच्या अखत्यारीत आहे. किल्ल्यात प्रवेश
+करण्यासाठी नाममात्र शुल्क आकारण्यात येते. किल्‍ला आणि त्याचा परिसर सुशोभित केलेला आहे. किल्ल्याचे दरवाजे
+अतिशय भक्कम असून शहर दरवाजा, हत्ती दरवाजा, खाती दरवाजा अशा नावानी ते ओळखले जातात. किल्ल्यामध्ये ध्वस्त
+झालेले मंदिर तसेच अनेक इमारतीचे अवशेष पहायला मिळतात. नागबावडी विहीर आणि इंग्रजकालीन तोफा ही वैशिष्ट्यपूर्ण
+आहेत.इतिहास आणि भक्कम बांधकाम यामुळे सोलापूरचा किल्‍ला आपल्या स्मरणात राहतो."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info3"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t3"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_kambar_talav" />
+
+                    <TextView
+                        android:id="@+id/item_name4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img4"
+                        android:fontFamily="@font/secular_one"
+                        android:text="4) संभाजी तलाव (कंबर तलाव)"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name4"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img4"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर शहर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location4"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tसंभाजी तलावाचे (कंबर तलाव) मूळ नाव कमर तलाव होते. औरंगजेब-मुघल सम्राटाच्या मुलीच्या नावावरून हे नाव ठेवले गेले.
+पण आता हे कंबर तलाव म्हणून ओळखले जाते. हे संभाजी लेक म्हणून देखील ओळखले जाते. हिवाळ्यात येथे बरेच
+स्थलांतरित पक्षी आढळून आलेले हे एक मोठे पक्षी निरीक्षण केंद्र आहे. ही टाकी पांढर्‍या आणि गुलाबी कमळांनी भरलेली होती.
+भेट देण्याचा सर्वोत्तम हंगाम: ऑक्टोबर ते फेब्रुवारीपर्यंत."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info4"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t4"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_rupa_bhavani" />
+
+                    <TextView
+                        android:id="@+id/item_name5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img5"
+                        android:fontFamily="@font/secular_one"
+                        android:text="5) रूपा भवानी मंदिर"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name5"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img5"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर शहर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location5"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\t17 व्या शतकाच्या सुरूवातीच्या काळात, खानक-ए-शोक्ता, नवाकदल (सध्या श्रीनगर) येथील रहिवासी पंडित माधव जू धार
+यांची ती मुलगी होती. त्याने तिला योगाच्या पद्धतींशी ओळख करून दिली. मौखिक आणि लिखित आख्यायिका अशी आहे की
+माधव जू धार माता शारिका (काली) चा उत्कट भक्त होता. तो दररोज प्रार्थना करण्यासाठी हरी पर्वत येथे तिच्या मंदिरात जात
+असे. 1620 मध्ये, नवरात्रच्या पहिल्या दिवशी, त्याच्या भक्तीमुळे प्रसन्न झाले, माता शारिकाने त्यांना वरदान दिले. माधव जू
+
+धार यांनी एक मुलगी मागितली आणि 1621 मध्ये अलखेश्वरने जेठ (ज्येष्ठे) महिन्यात पूर्णा अमावस्या येथे जूच्या पत्नीस
+जन्म दिला. अगदी लहान वयातच लग्नानंतरही ती मध्यरात्री हरी पर्वतावर साधना करण्यासाठी गेली. अलखेश्वरने तिची
+साधना चश्मा शाही, मनिगम आणि वास्कुरा येथे एकटीत केली. साफा कडाळ येथील तिच्या जन्मस्थळासह ही
+ठिकाणे आता रूपा भवानी अस्थपनास म्हणून प्रसिद्ध आहेत"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view5"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info5"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t5"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_prerana_bhumi" />
+
+                    <TextView
+                        android:id="@+id/item_name6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img6"
+                        android:fontFamily="@font/secular_one"
+                        android:text="6) प्रेरणाभूमी अस्थिविहार"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name6"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img6"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर शहर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location6"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tडॉ. बाबासाहेब आंबेडकर यांच्या अस्थी महाराष्ट्रात तीन ठिकाणी आहेत. नागपूरमध्ये दीक्षाभूमी, मुंबईत चैत्यभूमी तर
+सोलापुरात प्रेरणाभूमी आहे. बुधवार पेठेतल्या मिलिंदनगरात अतिशय सुंदर असे हे विहार साकारले आहे. सोलापूरसंदर्भातील
+मुख्य घटना-घडामोडी शिल्पांच्या स्वरूपात मांडण्यात आल्या. त्यामुळे विहार अधिक बोलके झाले आहे.
+या ठिकाणी अनेक दुर्मिळ छायाचित्रे आहेत. यात 22 सप्टेंबर 1924 रोजी हरिभाऊ तोरणे गुरुजी यांनी बाबासाहेबांना दिलेले
+पत्र, 24 जानेवारी 1937 रोजी बाबासाहेब जीवप्पा ऐवाळे यांच्या प्रचारासाठी सोलापुरात आले असताना रेल्वे स्टेशनवरील
+स्वागताचे छायाचित्र, 23 फेब्रुवारी 1939 रोजी सोलापुरात महारमांग वतनदार परिषद कार्यकर्त्यांसोबत, 6 ऑगस्ट 1950
+पंढरपुरात चोखामेळा बोर्डिंग विश्वस्त जबाबदारी स्वीकारताना, कुर्डुवाडी रेल्वे स्टेशन येथे कार्यकर्त्यांसोबत, माढा तालुक्यातील
+भोसरे येथील शंकरराव रिकोबे यांनी घेतलेली बाबासाहेबांची भेट, भारतरत्न पदक स्वीकारताना माईसाहेब, वळसंग येथील
+विहिरीस बाबासाहेबांनी दिलेली भेट यांसह 15 छायाचित्रे आहेत."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view6"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info6"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t6"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img7"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_hiparga_talav" />
+
+                    <TextView
+                        android:id="@+id/item_name7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img7"
+                        android:fontFamily="@font/secular_one"
+                        android:text="7) हिप्परगा तलाव"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name7"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img7"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर शहर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location7"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tएकरुख तलाव म्हणजे ​​हिप्परगा तलाव - तलावाशी जोडलेल्या एकरुख टाकीची कळस आहे. ही टाकी सोलापूर ब्रिटीश
+राजवटीच्या काळात स्थापित केली गेली होती. हे एका विशिष्ट कर्नल फिफेने स्थापित केले होते. या तलावामध्ये वर्षभर
+मुबलक प्रमाणात पाणी असते आणि संपूर्ण सोलापूर जिल्ह्यात पाणीपुरवठा हा मुख्य स्त्रोत होता. तलावातील एकरुख टँक हा
+संपूर्ण डेक्कन प्रदेशातील दुसरा सर्वात मोठा सिंचन प्रकल्प मानला जातो.डला, फ्लेमिंगो, क्रेन्स, बार हेड गीस याशिवाय
+मर्यादित नसलेल्या सुंदर स्थलांतरित पक्ष्यांसह वनस्पती आणि वनौषधींचे प्रमाण भरपूर आहे अशा सोलापुरात भेट देण्यासाठी
+हे एक सुंदर स्थळ आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view7"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info7"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t7"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img8"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_naldurg_killa" />
+
+                    <TextView
+                        android:id="@+id/item_name8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img8"
+                        android:fontFamily="@font/secular_one"
+                        android:text="8) नळदुर्ग किल्ला"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name8"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img8"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर "
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location8"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tसोलापूरपासून km 45 कि.मी. अंतरावर नलदुर्ग किल्ला एक प्रसिद्ध ऐतिहासिक स्मारक आहे. असा विश्वास आहे की
+नालाराजाने (राजा नालाने) हा किल्ला बांधला. असे म्हणतात की कल्याणयातील चालुक्य राजांनी नलदुर्ग किल्ला बांधला. हा
+किल्ला पूर्वी इराल म्हणून ओळखला जात असे, जेव्हा ते मोगल साम्राज्याकडे देण्यापूर्वी १ 135१ ते १8080० या काळात बहमनी
+सुलतानाच्या ताब्यात होते. नंतर आदिल शाही राज्यकर्त्यांनी 1558 मध्ये किल्ल्याची भव्य तटबंदी बांधली.समोरून पाण्याचा
+साठा असलेली ‘जामा’ मशिदी वाड्याच्या एका बाजूला आहे. या किल्ल्याचा खास आकर्षक बुरुज उजव्या बाजूला आहे.
+कमळांच्या पाकळ्यांचा आकार असणा this्या या बुरुजाच्या बांधकामाचे सौंदर्य बाहेरून पाहताना स्पष्टपणे अनुभवता येते.
+कमळाच्या नऊ पाकळ्यांशी त्याच्या आकाराचे साम्य या किल्ल्याचे नाव ‘नवबुर्ज’ आहे. आतील बाजूस दोन मजल्यावरील हा
+बुरुज नलदुर्गवर दिसू शकणार्‍या दुर्मिळ बांधकामांपैकी एक आहे. ब्रिटिश अधिकारी कर्नल मीडोव्हस राहत असणार्‍या मशिदी
+आणि तटबंदीच्या मधोमध ‘बारदरी’ नावाची जीर्ण इमारतदेखील आपल्याला दिसते. हे बोरी नदीचे आणि त्यावरील पुलाचे
+विलक्षण दृश्य देते.खंदकाच्या मागील बाजूस आपल्याला ‘रणमंडल’ नावाचा आणखी एक किल्ला दिसतो जो नलदुर्गच्या
+संरक्षणासाठी बांधलेला आहे. येथे एक धरण आहे जो किल्ला आणि रणमंडलला जोडणारा आहे, जो पाहण्यासारखा आहे. या
+किल्ल्याभोवती खंदक म्हणजे बोरी नदीचे पाणी. नदीच्या प्रवाहाची दिशा बदलून खंदक भरला जातो. आदिलशाच्या वर्षात,
+नलदुर्ग किल्ला व रणमंडलला जोडणारा १44 मीटर लांबीचा, २ to ते १ meter मीटर रुंद आणि १ meters मीटर उंचीचा विण
+बांधला गेला. आत जाण्यासाठी पायथ्यासह एक छोटा राजवाडा आहे. जेव्हा नदी ओसंडून वाहते तेव्हा पाणी विरळाच्या
+माथ्यावरुन वाहते आणि आतली रचना ओले होत नाही. प्रतिभावान आर्किटेक्ट ‘मीर एमादीन’ यांनी हे सुंदर बांधकाम
+केले.नलदुर्ग किल्ल्याचे प्रसिद्ध आकर्षण म्हणजे त्याचे सुंदर धबधबे, ज्यास सामान्यतः नर आणि माडी असे म्हणतात जे
+स्थानिक भाषेत नर आणि मादीमध्ये भाषांतरित करतात. मान्सूननंतरच्या काळात पावसाळ्यात धबधब्यांनी डोंगर कोसळले
+आहेत."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view8"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info8"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t8"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img9"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_bale_khandoba" />
+
+                    <TextView
+                        android:id="@+id/item_name9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img9"
+                        android:fontFamily="@font/secular_one"
+                        android:text="9) बाळे (खंडोबा मंदिर )"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name9"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img9"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="बाळे"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location9"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tबाळे गावचे पाटील माणकोजीराव यांनी खंडोबाची बालकाच्या रूपात आपल्या देवघरात प्रतिष्ठापना केल्यामुळे त्या गावाला
+बाळे हे नामाभिधान प्राप्त झाले, अशी अख्यायिका आहे.माणकोजीराव पाटील यांच्या कुटुंबीयांचे श्री खंडोबा हे कुलदैवत आहे़
+पाटील हे अणदूर येथील खंडोबास नित्यनियमाने पायी चालत जाऊन दर्शन व पूजाविधी करत असत़ त्यांची श्री खंडोबाचरणी
+निस्सीम अशी भक्ती होती़ काही कालावधीनंतर श्री खंडोबा हे पाटील यांच्या स्वप्नात आले अन् माझी आपल्या देवघरात
+स्थापना करून तेथेच पूजा, अभिषेक कर असे सांगितले़ त्यानुसार पाटील यांनी बाळाच्या रूपात आलेल्या खंडोबाची प्रतिष्ठापना
+केल्याची माहिती देण्यात आली.बाळे येथील खंडोबा मंदिरात ऐतिहासिक पलंग महाल आहे़ पलंग महाल ही शिवकालीन पुरातन
+वस्तू आहे़ पलंगावर खंडोबा देवाचे चांदीचे आकर्षक व प्रसन्न मुखवटे आहेत़ हे चांदीचे मुखवटे अडीच ते तीन किलो वजनाचे
+आहेत़ यात्राकाळात पालखीत खंडोबा देवाचे हे मुखवटे ठेवले जातात़.पुरातन शिवकालीन काळातील हे बांधकाम असल्याचे
+सांगण्यात आले आहे़."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view9"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info9"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t9"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img10"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_hirachand_nemchand_vachnalay" />
+
+                    <TextView
+                        android:id="@+id/item_name10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img10"
+                        android:fontFamily="@font/secular_one"
+                        android:text="10) हि. ने. वाचनालय"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name10"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img10"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="बाळे"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location10"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tसुरुवातीला 30 सभासद असलेल्या आणि शे-सव्वाशे ग्रंथ असलेल्या या रोपट्याचे आता वटवृक्ष झाले आहे. दीडशे वर्षांच्या
+परंपरेमुळे 2700 सर्वसाधारण सभासद, मासिक 300 आणि बाल विभागाचे 200 असे 3000 एकूण सभासद आहेत. ग्रंथसंपदा
+1 लाख 12 हजारांवर आहे.सोलापूर शहराच्या सांस्कृतिक वैभवात भर टाकण्यामध्ये अनेक संस्थांचे योगदान आहे. चार
+पुतळ्याजवळील हिराचंद नेमचंद वाचनालय हे त्यापैकी एक. द्विशताब्दीकडे वाटचाल करणार्‍या या वाचनालयाने वाचकांची
+खर्‍या अर्थाने बौद्धिक भूक भागविण्याचे कार्य केले.शहराच्या मध्यवर्ती भागात ऐतिहासिक किल्ल्याच्या समोर दिमाखात उभे
+असलेलेे हिराचंद नेमचंद वाचनालय पूर्वी नेटिव्ह जनरल लायब्ररी या नावे ओळखले जात असे. 1853 मध्ये दत्त चौकातील
+नगरपालिकेच्या शाळा क्रमांक एकच्या एका खोलीत वाचनालयाची मुहूर्तमेढ रोवली गेली. पुढे ती शाळा पाडण्यात आल्याने
+पुन्हा जागेचा प्रश्न निर्माण झाला. 1912 ते 1927 पर्यंत भावे वाडा, दाणे वाड्यात प्रबोधनाची ग्रंथचळवळ सुरू होती. यानंतर
+1927 च्या काळात तत्कालीन नगराध्यक्ष डॉ. वि. वा. मुळे यांच्या विशेष प्रयत्नांमुळे नगरपालिकेकडून मोफत जागा मिळाली
+आणि खर्‍या अर्थाने वाचनालयाला हक्काची वास्तू मिळाली. या वाचनालयाचे सभासद असणे प्रतिष्ठेचे मानले जायचे.
+सोलापूर शहराचे पहिले लोकनियुक्त नगराध्यक्ष कै.रावबहादूर अप्पाजीराव देगावकर, रा. ब. गणेश व्यंकटेश जोशी, रवींद्रनाथ
+टागोरांचे बंधू न्यायमूर्ती सत्येंद्रनाथ टागोर, कल्पतरुचे संपादक नारायण गोविंद काकडे, कर्मयोगीचे संपादक रामभाऊ राजवाडे,
+डॉ. सखाराम किर्लोस्कर, डॉ. कृ. भि. अंत्रोळीकर, प्राचार्य के. पी. मंगळवेढेकर अशी कर्तृत्वसंपन्न मंडळी वाचनालयाचे सभासद
+होते."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view10"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info10"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
