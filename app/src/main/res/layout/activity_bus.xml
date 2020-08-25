@@ -167,6 +167,1194 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="14sp" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/akluj_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_aur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/akluj_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="औरंगाबाद"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/aur_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_aur"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t04:15\t\t\t\t06:30\t\t\t\t08:35\t\t\t\t12:45\t\t\t\t15:15\t\t\t\t17:00\t\t\n\n\t\t19:00\t\t\t\t21:00\t\t\t\t23:45\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/aur_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_vijapur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aur_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="विजापूर"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vijapur_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_vijapur"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t05:15\t\t\t\t06:15\t\t\t\t08:15\t\t\t\t09:30\t\t\t\t11:45\t\t\t\t13:00\t\t\n\n\t\t13:45\t\t\t\t14:00\t\t\t\t14:45\t\t\t\t15:00\t\t\t\t16:00\t\t\t\t17:00\t\t\n\n\t\t17:45\t\t\t\t18:15\t\t\t\t19:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/vijapur_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_gul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vijapur_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="गुलबर्गा"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gul_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_gul"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t02:00\t\t\t\t05:15\t\t\t\t06:15\t\t\t\t07:30\t\t\t\t08:15\t\t\t\t09:15\t\t\n\n\t\t10:00\t\t\t\t12:00\t\t\t\t12:45\t\t\t\t13:30\t\t\t\t14:45\t\t\t\t15:15\t\t\n\n\t\t17:00\t\t\t\t21:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/gul_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_gan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gul_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="गाणगापूर"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gan_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_gan"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t01:00\t\t\t\t06:00\t\t\t\t07:30\t\t\t\t08:30\t\t\t\t09:00\t\t\t\t12:15\t\t\n\n\t\t13:30\t\t\t\t16:15\t\t\t\t17:15\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/gan_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_hyd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gan_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="हैद्राबाद"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hyd_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_hyd"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t00:30\t\t\t\t00:45\t\t\t\t01:45\t\t\t\t02:45\t\t\t\t05:00\t\t\t\t05:30\t\t\n\n\t\t07:00\t\t\t\t07:30\t\t\t\t09:00\t\t\t\t10:00\t\t\t\t11:00\t\t\t\t12:15\t\t\n\n\t\t13:00\t\t\t\t14:00\t\t\t\t15:00\t\t\t\t16:00\t\t\t\t17:00\t\t\t\t19:30\t\t\n\n\t\t20:15\t\t\t\t21:00\t\t\t\t21:15\t\t\t\t22:30\t\t\t\t23:00\t\t\t\t23:15\t\t\n\n\t\t23:45\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/hyd_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_hubali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hyd_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="हुबळी"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hubali_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_hubali"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t04:15\t\t\t\t04:30\t\t\t\t07:30\t\t\t\t08:00\t\t\t\t08:45\t\t\t\t11:45\t\t\n\n\t\t11:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/hubali_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_kol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hubali_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="कोल्हापूर"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kol_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_kol"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t00:30\t\t\t\t02:30\t\t\t\t05:00\t\t\t\t05:30\t\t\t\t05:45\t\t\t\t06:20\t\t\n\n\t\t06:45\t\t\t\t07:00\t\t\t\t07:45\t\t\t\t08:00\t\t\t\t08:15\t\t\t\t09:30\t\t\n\n\t\t09:45\t\t\t\t10:00\t\t\t\t10:30\t\t\t\t11:00\t\t\t\t11:30\t\t\t\t12:30\t\t\n\n\t\t13:00\t\t\t\t13:15\t\t\t\t14:00\t\t\t\t14:30\t\t\t\t15:00\t\t\t\t15:15\t\t\n\n\t\t16:00\t\t\t\t17:00\t\t\t\t17:45\t\t\t\t18:00\t\t\t\t19:00\t\t\t\t20:00\t\t\n\n\t\t20:30\t\t\t\t21:00\t\t\t\t22:00\t\t\t\t23:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/kol_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_karad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kol_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="कराड"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/karad_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_karad"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t01:30\t\t\t\t04:15\t\t\t\t07:00\t\t\t\t09:00\t\t\t\t11:15\t\t\t\t12:00\t\t\n\n\t\t17:00\t\t\t\t18:15\t\t\t\t21:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/karad_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_karmala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/karad_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="करमाळा"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/karmala_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_karmala"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t06:45\t\t\t\t07:45\t\t\t\t10:00\t\t\t\t11:30\t\t\t\t12:00\t\t\t\t15:30\t\t\n\n\t\t16:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/karmala_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_kur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/karmala_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="कुर्डुवाडी"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kur_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_kur"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t08:30\t\t\t\t08:45\t\t\t\t10:00\t\t\t\t10:30\t\t\t\t11:30\t\t\t\t12:15\t\t\n\n\t\t13:15\t\t\t\t14:15\t\t\t\t14:45\t\t\t\t15:45\t\t\t\t17:15\t\t\t\t\t18:15\t\t\n\n\t\t19:30\t\t\t\t21:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/kur_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_nag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kur_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="नागपूर"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nag_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_nag"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t09:30\t\t\t\t15:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/nag_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_latur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nag_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="लातूर"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/latur_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_latur"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t02:35\t\t\t\t06:15\t\t\t\t08:30\t\t\t\t10:00\t\t\t\t11:00\t\t\t\t11:30\t\t\n\n\t\t12:00\t\t\t\t15:30\t\t\t\t16:15\t\t\t\t18:15\t\t\t\t20:15\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/latur_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_nashik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/latur_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="नाशिक"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nashik_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_nashik"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t06:00\t\t\t\t07:30\t\t\t\t08:45\t\t\t\t09:30\t\t\t\t09:45\t\t\t\t10:00\t\t\n\n\t\t12:30\t\t\t\t14:30\t\t\t\t19:30\t\t\t\t21:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/nashik_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_nanded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nashik_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="नांदेड"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nanded_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_nanded"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t06:00\t\t\t\t07:30\t\t\t\t08:30\t\t\t\t09:30\t\t\t\t13:00\t\t\t\t15:30\t\t\n\n\t\t16:00\t\t\t\t21:30\t\t\t\t22:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/nanded_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_uma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nanded_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="उमरगा"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/uma_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_uma"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t02:45\t\t\t\t04:15\t\t\t\t06:30\t\t\t\t10:45\t\t\t\t12:45\t\t\t\t14:00\t\t\n\n\t\t15:15\t\t\t\t19:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/uma_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_phaltan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/uma_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="फलटण"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phaltan_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_phaltan"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t13:15\t\t\t\t14:15\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/phaltan_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_parali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phaltan_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="परळी"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/parali_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_parali"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t10:15\t\t\t\t12:30\t\t\t\t14:45\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/parali_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_parbhani"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/parali_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="परभणी"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/parbhani_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_parbhani"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t05:00\t\t\t\t06:00\t\t\t\t07:30\t\t\t\t21:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/parbhani_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_raichur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/parbhani_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="रायचूर"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/raichur_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_raichur"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t05:30\t\t\t\t17:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/raichur_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_sangali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/raichur_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="सांगली"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sangali_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_sangali"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t06:45\t\t\t\t05:15\t\t\t\t15:45\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/sangali_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_shirdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sangali_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="शिर्डी"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/shirdi_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_shirdi"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t08:45\t\t\t\t10:15\t\t\t\t13:15\t\t\t\t14:30\t\t\t\t19:30\t\t\t\t12:45\t\t\t\t21:15\t\t\t\t21:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/shirdi_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_satara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shirdi_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="सातारा"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/satara_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_satara"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t06:00\t\t\t\t07:30\t\t\t\t08:00\t\t\t\t09:45\t\t\t\t10:30\t\t\t\t11:30\t\t\n\n\t\t12:45\t\t\t\t13:00\t\t\t\t14:00\t\t\t\t15:45\t\t\t\t16:30\t\t\t\t17:30\t\t\n\n\t\t20:00\t\t\t\t22:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/satara_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_thane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/satara_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="ठाणे"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/thane_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_thane"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t10:45\t\t\t\t19:00\t\t\t\t19:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/thane_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_udapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thane_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="उडपी"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/udapi_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_udapi"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t17:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/udapi_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_vasko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/udapi_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="वास्को"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vasko_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_vasko"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t05:45\t\t\t\t20:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/vasko_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_jalgoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vasko_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="जालना"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/jalgoan_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_jalgoan"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t22:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/jalgoan_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_ichal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jalgoan_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="इचलकरंजी"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ichal_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_ichal"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t07:00\t\t\t\t12:00\t\t\t\t13:30\t\t\t\t14:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/ichal_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_indi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ichal_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="इंडी"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/indi_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_indi"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t02:35\t\t\t\t07:00\t\t\t\t09:00\t\t\t\t10:30\t\t\t\t12:30\t\t\t\t14:45\t\t\n\n\t\t17:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/indi_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_humna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/indi_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="हुमानाबाद"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/humna_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_humna"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t10:45\t\t\t\t14:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/humna_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_hingoli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/humna_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="हिंगोली"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hingoli_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_hingoli"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t05:30\t\t\t\t21:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/hingoli_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_gadag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hingoli_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="गदग"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gadag_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_gadag"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t07:15\t\t\t\t20:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/gadag_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_bel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gadag_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="बेळगाव"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bel_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_bel"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t05:30\t\t\t\t07:00\t\t\t\t08:30\t\t\t\t09:0\t\t\t\t10:00\t\t\t\t10:45\t\t\n\n\t\t21:00\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/bel_times"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/colorSecondaryDark" />
+
+            <TextView
+                android:id="@+id/station_bidar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bel_times"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/secular_one"
+                android:text="बिदर"
+                android:textColor="@color/colorSecondaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bidar_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/station_bidar"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\t\t04:15\t\t\t\t12:00\t\t\t\t13:30\t\t\t\t16:15\t\t\t\t23:30\t\t"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
         </RelativeLayout>
 
     </ScrollView>
