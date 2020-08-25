@@ -942,7 +942,7 @@
                         android:drawableLeft="@drawable/ic_baseline_location_on_24"
                         android:drawablePadding="5dp"
                         android:fontFamily="@font/secular_one"
-                        android:text="बाळे"
+                        android:text="सोलापूर"
                         android:textSize="14sp" />
 
                     <TextView
@@ -978,6 +978,991 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_below="@id/info10"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t10"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img11"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_mallikarujun_mandir" />
+
+                    <TextView
+                        android:id="@+id/item_name11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img11"
+                        android:fontFamily="@font/secular_one"
+                        android:text="11) बाळीवेस मल्लिकार्जुन मंदिर"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name11"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img11"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location11"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tसोलापूरचे ग्रामदैवत सिद्धरामेश्वरांचे आराध्य आहेत श्री मल्लिकार्जुन. सिद्धरामेश्वरांच्या हयातीत म्हणजे 900 वर्षांपूर्वी
+किल्ला परिसरात स्वत: सिद्धरामेश्वरांनी मल्लिकार्जुन मंदिराची स्थापना केली. याच वेळी गुरूच्या चरणी तीर्थ असावे म्हणून
+तलाव खोदला. त्यावेळी येथे किल्ला नव्हता. कालांतराने आक्रमण काळात हे शिवलिंग सुरक्षित राहावे म्हणून 16 व्या शतकात
+उत्तर कसब्यातील आता असलेल्या जागेवर मल्लिकार्जुन मंदिराची स्थापना करण्यात आली. किल्ला परिसरातील
+मंदिराप्रमाणेच या मंदिराचे खांब बनवले गेले. आजही शहराच्या भुईकोट किल्ल्यात या मंदिराचे अवशेष सापडतात. सिद्धेश्वर
+देवस्थान समितीच्या अधिपत्याखाली असलेल्या या मंदिराचे वैशिष्ट्य म्हणजे काळ्या पाषाणात बांधण्यात आलेल्या
+हेमाडपंथी बांधकामाचा हा उत्कृष्ट नमुना आहे. 300 बाय 250 फूट क्षेत्रफळाच्या या पुरातन मंदिरात मजबूत आणि कोरीव
+असे 22 खांब असून गेल्या 400 वर्षांपेक्षा अधिक काळापासून ते आहे त्या स्थितीत आहेत. बाळीवेस परिसरात असणार्‍या
+मल्लिकार्जुन मंदिराचे आणखी एक वैशिष्ट्य म्हणजे हे मंदिर आंध्रातील श्रीशैल येथील मल्लिकार्जुन मंदिराची प्रतिकृती आहे.
+सिद्धेश्वरांनी स्थापित केलेल्या 68 पैकी 3 लिंग येथे आहेत."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view11"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info11"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t11"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img12"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_shivsmarak" />
+
+                    <TextView
+                        android:id="@+id/item_name12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img12"
+                        android:fontFamily="@font/secular_one"
+                        android:text="12) शिवस्मारक"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name12"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img12"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location12"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tछत्रपती शिवाजी महाराजांनी स्वराज्य स्थापनेची शपथ घेतलेल्या घटनेस 1946 मध्ये 300 वर्षे पूर्ण झाली. त्यानिमित्ताने
+धर्मवीर वि. रा. पाटील, भा. वा. मुळे, राजाभाऊ राजवाडे, रावसाहेब निंबर्गीकर, नागप्पाअण्णा अबदुलपूरकर आणि नारायण
+जाधव यांनी तरुणांमध्ये राष्ट्रभक्ती जागवण्यासाठी शिवस्मारक ही संस्था सुरू केली. त्यासाठी जागा खरेदी केली. 1979
+पासून हे काम पुन्हा जोमाने सुरू झाले. शिवस्मारकमध्ये तरुणांसाठी अत्याधुनिक उपकरणांनी युक्त सुसज्ज व्यायामशााळा
+सुरू केली. देशभक्ती गीत स्पर्धा, व्याख्यानमाला, वाचनालय, किल्ले स्पर्धा असे अनेक उपक्रम सुरू झाले.1997 मध्ये
+महाराजांचा पुतळा बसवण्यात आला. त्यानंतर शिवशिल्प प्रकल्प पूर्ण केले.बस स्थानकापासून हाकेच्या अंतरावर आहे श्री
+छत्रपत्री शिवाजी महाराज स्मारक. मुख्य बाजारपेठ असलेल्या नवी पेठेत छत्रपती शिवाजी महाराज यांचे भव्य स्मारक
+प्रेरणास्थान आहे.चहूबाजूंनी व्यापारी गाळे आणि मध्ये भव्य पटांगणात उंचावर भव्य मूर्ती स्वाभिमान जागवते. सिंहासनारूढ
+मूर्तीच्या भोवताली महाराजांच्या जीवनीवर आधारित शिल्पप्रदर्शन आहे. रा. स्व. संघाचे तत्कालीन सरसंघचालक बाळासाहेब
+देवरस, रज्जूभय्या व कुप्प सुदर्शन यांनी अनुक्रमे कोनशिला, पुतळा स्थापना, शिवशिल्पांचे अनावरण केले.आधुनिक
+उपकरणांनी युक्त सुसज्ज व्यायामशाळा येथे आहे. मुलांना लहान वयापासूनच बलसंवर्धनाची रूची लागावी यासाठी येथे अनेक
+उपक्रम सुरू असतात."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view12"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info12"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t12"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img13"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_pulgam_textiles" />
+
+                    <TextView
+                        android:id="@+id/item_name13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img13"
+                        android:fontFamily="@font/secular_one"
+                        android:text="13) सोलापुरी चादर ( पुलगम )"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name13"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img13"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location13"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tपुलगम टेक्सटाईल ची स्थापना 1967 मध्ये झाली. आम्ही चडदार आणि टॉवेल्सचे आघाडीचे निर्माता आणि पुरवठादार आहोत.
+पुलगाम घराण्याचा मूळ जन्म आंध्र प्रदेशातील मेडक (वारंगल) या छोट्याशा गावात आहे. हे कुटुंब त्यांच्या सजीव वस्तूंच्या
+सोलापुरात गेले होते. पुलगाम वस्त्रोद्योगाची कथा हँडलूम कर्मचारी म्हणून काम केलेल्या श्री यंबया मल्ल्या पुलगम
+यांच्यापासून सुरू होते. 1949 मध्ये श्री यंबया मल्ल्या पुलगम यांनी चार हातमागांसह पुलगम टेक्सटाईलसाठी एक बेस बांधला.
+त्यांनी हँडलूम साडी पारस पेटीपासून सुरुवात केली आणि जपानी किनारा हा त्यांचा प्रसिद्ध ब्रँड होता. अवघ्या 2 वर्षात आठ
+लूम गाठल्या आणि हा प्रवाह चालूच राहिला."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view13"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info13"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t13"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img14"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_kotnis_smarak" />
+
+                    <TextView
+                        android:id="@+id/item_name14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img14"
+                        android:fontFamily="@font/secular_one"
+                        android:text="14) डॉ. द्वारकानाथ कोटणीस स्मारक"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name14"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img14"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location14"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tडॉ. द्वारकानाथ कोटणीस यांचे बालपण सोलापुरात गेले. त्यांचा जीवनपट स्मारकात छायाचित्रांच्या माध्यमातून मांडण्यात
+आला आहे. त्यांच्या हस्ताक्षरातील पत्रही याठिकाणी आहेत. दुसऱ्या चीन-जपान युद्धाच्या पार्श्‍वभूमीवर भारताने चीनमध्ये
+वैद्यकीय सुविधेसाठी पाठविलेल्या पथकामध्ये डॉ. कोटणीस होते. त्यांच्यामुळे सोलापूरला आंतरराष्ट्रीय ओळख मिळाली.
+वयाच्या 32 व्या वर्षी त्यांचे निधन झाले. तत्कालीन नेते माओ त्से तुंग यांनी कोटणीस यांना चीनचे मित्र म्हणून गौरवले होते.
+चीनसह सोलापुरात त्यांचे सुंदर स्मारक आहे. अलाहाबाद येथील डॉक्टर डॉ. एम. अटल (जे मिशनचे नेते होते), नागपूरचे एम.
+चोलकर, शोलापूरचे डी. कोटणीस, बीके बसू आणि कलकत्ता येथील देवेश मुखर्जी यांचे वैद्यकीय पथक पाठविण्यात आले होते.
+
+सप्टेंबर 1938 मध्ये मेडिकल मिशन टीम. डॉ. कोटनिस वगळता सर्वजण सुखरूप भारतात परतले.टीम प्रथम वानवानच्या
+हॅनकॉ बंदरात चीनमध्ये आली. त्यानंतर त्यांना 1939 मध्ये क्रांतिकारक तळ यानान येथे पाठवण्यात आले, जिथे माओ झेडोंग,
+झू दे आणि कम्युनिस्ट पक्षाच्या इतर प्रमुख नेत्यांनी त्यांचे हार्दिक स्वागत केले कारण ते दुसर्‍या आशियातून येणारे पहिले
+वैद्यकीय पथक होते.28 वर्षीय डॉक्टर पाच सदस्यांच्या टीमचा एक भाग म्हणून आला आणि जखमी सैनिकांवर उपचार
+करण्यासाठी मोबाइल क्लिनिकमध्ये जवळजवळ 5 वर्षे चीनमध्ये राहिला. 1939 मध्ये, डॉ. कोटनिस उत्तर चीनच्या संपूर्ण
+प्रदेशात त्यांच्या प्रयत्नांनंतर, वुताई माउंटन क्षेत्राजवळील जिन-चा-जी सीमेवरील आठव्या मार्ग सैन्यात (माओ झेडोंग यांच्या
+नेतृत्वात) सामील झाले.लढाईतील डॉक्टर म्हणून त्यांचे काम तणावग्रस्त होते, तिथे नेहमीच औषधाची तीव्र कमतरता होती.
+1940 मध्ये जपानी सैन्याविरूद्ध एका लांबलचक लढाईत डॉ. कोटणीस यांनी झोप न लागता 72 तासांपर्यंत ऑपरेशन केले.
+युद्धादरम्यान 800 पेक्षा जास्त जखमी सैनिकांवर त्याने उपचार केले. अखेरीस त्यांची ओळख डॉ. बेथून आंतरराष्ट्रीय पीस
+रुग्णालयाचे संचालक म्हणून नियुक्त केली गेली.1940 मध्ये डॉ. कोटणीस यांनी बेथून हॉस्पिटलमधील नर्स गुओ किनिंगलान
+यांची भेट घेतली. डॉ. नॉर्मन बेथून यांच्या थडग्याच्या उद्घाटनप्रसंगी त्यांची प्रथम भेट झाली आणि गुओ त्वरित भारतीय
+डॉक्टरांकडे आकर्षित झाले. कोटनिस चिनी लिहू आणि बोलू शकले ज्यामुळे तिला आश्चर्य वाटले. या जोडप्याचे डिसेंबर 1941
+मध्ये लग्न झाले. 23 ऑगस्ट 1942 रोजी त्यांना एक मुलगा झाला, त्याचे नाव यिनहुआ होते - म्हणजे नी रोंगझेनच्या
+सूचनेनुसार भारत (यिन) आणि चीन (हुआ). डॉ. कोटणीस यांनी नियमितपणे आपल्या कुटुंबीयांना पत्र लिहिले. &quot;तो पत्रांमधून
+खूप आनंदित झाला. त्याच्या मदतीबद्दल लोक त्याचे आभार मानायला येत असत. तो चांगला भाग सांगत होता,&quot; मनोरमा
+म्हणतात. तो चीनमध्ये ज्या ज्या ठिकाणी गेला त्या त्याने आपल्या घराच्या पत्रात तपशीलवार वर्णन केले. संपूर्ण कुटुंबाला
+त्यांना मजा वाटली कारण त्याने जे वर्णन केले ते भारतातील जीवनापेक्षा खूप वेगळे होते. फ्रंट-लाइन डॉक्टर म्हणून काम
+करणार्‍या तणावामुळे होणारा त्रास यामुळे शेवटी त्याचा परिणाम होऊ लागला आणि त्याच्या आरोग्यावर त्याचा गंभीर
+परिणाम झाला. येनहुआच्या जन्मानंतर अवघ्या तीन महिन्यांनंतर मिरगीने डॉ. कोटनिस यांना धडक दिली. 9 डिसेंबर 1942
+रोजी अपस्मारांच्या धक्क्याने त्यांच्या विधवेने गुओ किंगलन व बाळ मुलगा सोडला. डॉ. कोटनिस यांना नानकॉवान
+व्हिलेजमधील हिरों कॉर्टयार्डमध्ये दफन करण्यात आले. त्यावेळी &quot;माओवाद्यांनी सैन्याचा हात गमावला आहे, राष्ट्राने
+आपला मित्र गमावला आहे.&quot; त्याच्या आंतरराष्ट्रीयवादी भावना आपण नेहमी लक्षात ठेवू या हे पाहून माओ झेदोंग यांनी
+त्यांच्या मृत्यूवर शोक व्यक्त केला."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view14"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info14"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t14"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img15"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_vir_tapsvi_mandir" />
+
+                    <TextView
+                        android:id="@+id/item_name15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img15"
+                        android:fontFamily="@font/secular_one"
+                        android:text="15) वीरतपस्वी मंदिर"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name15"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img15"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location15"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tअक्कलकोट रोडवरील वीरतपस्वी मंदिराचे महाद्वार दाक्षिणात्य पद्धतीचे आहे. या 7 मजली महाद्वारांची ऊंची 108 फुट आहे.
+मंदिराचे 3 भाग आहेत. तळमजल्यावर विशाल ध्यान मंदिर आहे. एकाच वेळी 1000 जण ध्यानाला बसु शकतील अशी व्यवस्था
+आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view15"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info15"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t15"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img16"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_siddheshwar_vanvihar" />
+
+                    <TextView
+                        android:id="@+id/item_name16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img16"
+                        android:fontFamily="@font/secular_one"
+                        android:text="16) सिद्धेश्वर वनविहार"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name16"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img16"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location16"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tशहराच्या भोवती दोनशे हेक्टर राखीव वनक्षेत्र असणारे मुंबईनंतर सोलापूर हे राज्यातील दुसरे शहर आहे. या ठिकाणी कोल्हा,
+खोकड, मोर, घोरपड, ससे यांसह अनेक स्थानिक स्थलांतरित पक्षी आढळतात. दुर्मिळ औषधी वनस्पती येथे आढळतात.
+शहरापासून अवघ्या दहा किलोमीटवर सिद्धेश्वर वनविहार हे राखीव वनक्षेत्र आहे. शहराच्या भोवती दोनशे हेक्टर राखीव
+वनक्षेत्र असणारे मुंबईनंतर सोलापूर हे राज्यातील दुसरे शहर आहे. या ठिकाणी कोल्हा, खोकड, मोर, घोरपड, ससे यांसह अनेक
+स्थानिक स्थलांतरित पक्षी आढळतात. दुर्मिळ औषधी वनस्पती येथे आढळतात. वनविभागतर्फे येथे विविध सोयी-सुविधा
+निर्माण करण्यात येत आहेत. बालकांपासून ते ज्येष्ठ नागरिकांपर्यंत प्रत्येक घटकाला आवश्यक बाबींचा समावेश करण्यास
+प्राधान्य देण्यात येत आहे. पूर्वी ओसाड माळरान अशी सिद्धेश्वर वनविहारची ओळख होती. शहर परिसरात पकडलेले साप त्या
+ठिकाणी सोडण्यात येत असल्याने वनविहारकडे अनेकजण फिरकतही नव्हते. गेल्या काही वर्षांत येथे निसर्ग परिचय केंद्र
+निर्माण करण्यात आले. औषधी उद्यान, लतावन, जलयुक्त शिवार योजनेच्या माध्यमातून ओढ्यांचे रुंदीकरण करण्यात
+आले. तलावातील गाळ काढल्याने पाणपक्ष्यांची संख्या तेथे वाढत आहे. त्याचबरोबर गवताळ भाग, मातृवृक्षांची लागवड,
+अद्ययावत रोपवाटिका तयार करण्यात आली. बालकांसाठी खेळणी बसवण्यात आली असून पक्षीनिरीक्षणासाठी मनोरे,
+पर्यटकांना विसावा घेण्यास पॅगोडा बाकडे तयार केले आहेत. गवताळ माळरानावर आढळणारा माळढोक पक्षी, काळवीट यांचे
+पुतळे तयार केले आहेत. त्याचप्रमाणे वन्यजीव, झाडे, पर्यावरण या संदर्भातील जनजागृती फलक जागोजागी लावण्यात
+आलेत. निसर्गप्रेमींच्या सहभागातून वनविहरात पक्ष्यांची कृत्रिम घरटी बसवली असून त्यातील अनेक घरट्यांत पक्ष्यांचा वावर
+सुरू आहे. येथे पर्यावरण शिक्षणाचे केंद्र साकारण्यात येत आहे. मुख्यमंत्र्यांचे सचिव प्रवीणसिंह परदेशी यांनी पर्यावरण शिक्षण
+केंद्र उभारण्याची संकल्पना मांडली. त्या ठिकाणी उभारण्यात आलेल्या नव्याने करावयाच्या कामांची (सेंटर ऑफ एन्व्हायरमेंट
+एज्युकेशन) पाहणी केली होती.विजापूर रोडवर राजस्व नगरकडे जाणार्‍या रस्त्यावर सिद्धेश्वर वनविहार आहे. मोठ्या
+प्रमाणात झाडी असलेल्या या परिसरात दुपारच्या वेळी थंड वाटतं. परिवारासह जेवणाचा डबा घेऊन भटकंती करायला
+जाण्यासाठी हे एक छान ठिकाण आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view16"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info16"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t16"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img17"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_maldhok" />
+
+                    <TextView
+                        android:id="@+id/item_name17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img17"
+                        android:fontFamily="@font/secular_one"
+                        android:text="17) माळढोक अभयारण्य"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name17"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img17"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="नान्नज"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location17"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tमाळढोक  हा भारतात आणि भारताला लागून असलेल्या पाकिस्तानमधील कोरड्या प्रांतामध्ये आढळणारा अत्यंत दुर्मिळ
+पक्षी आहे. या पक्ष्याच्या सरंक्षणासाठी अनेक राज्य सरकारांनी ठोस पावले उचलली आहेत. याला ग्रेट इंडियन बस्टार्ड असेही
+म्हणतात. विदर्भात या पक्ष्याला ’हुम’ म्हणतात.मोठे, उभे शरीर, उंच पाय यामुळे हा पक्षी शहामृगासारखा दिसतो. उडणाऱ्या
+पक्ष्यांमधील सर्वांत जड पक्ष्यांपैकी हा एक आहे. भारतातील कोरड्या माळरानांवर एकेकाळी सहज दिसणाऱ्या ह्या पक्ष्यांची
+संख्या इसवी सन २०११मध्ये केवळ २५० इतकी असल्याचा अंदाज करण्यात आला होता. 2018 मधे ही संख्या 150 आली
+आहे. शिकार आणि अधिवासाचा ऱ्हास यामुळे ही प्रजाती अतिशय संकटग्रस्त स्थितीत आहे. हा पक्षी सन १९७२च्या वन्यजीव
+संरक्षण अधिनियमअन्वये संकटग्रस्त म्हणून जाहीर करण्यात आला आहे.याचे मुख्य खाद्य छोटे व मोठे किडे, टोळ, बिया,
+छोटी झुडुपे, इत्यादी आहे.माळढोक पक्षी भारतामधे फक्त आंध्र
+
+प्रदेश, कर्नाटक, गुजरात, मध्यप्रदेश, महाराष्ट्र व राजस्थान या राज्यांत आढळतो. महाराष्ट्रात हा पक्षी साधारणपणे दुष्काळी
+जिल्ह्यांमध्ये म्हणजे [अहमदनगर], नागपूर व बीड जिल्ह्यात तसेच सोलापूर जिल्ह्यात आढळतो. सोलापूरजवळ नान्नज
+अभयारण्य येथे या पक्ष्यासाठी संरक्षित अरण्य स्थापन झाले आहे. हे महाराष्ट्रातील आकाराने सर्वात मोठे अभयारण्य आहे.
+संबंधित राज्य सरकारांनी ग्रेट इंडियन बस्टार्डसाठी अभयारण्य घोषित केल्या आहेत.लुप्तप्राय धोक्यात आलेल्या ग्रेट
+इंडियन बस्टार्डच्या दुर्मिळ प्रजातींचे संवर्धन करण्याचे एकमात्र उद्दीष्ट्य महाराष्ट्र सरकारने 1979 मध्ये ग्रेट
+इंडियन बस्टार्ड अभयारण्य घोषित केले. अभयारण्यात सोलापूर जिल्ह्यातील उत्तर सोलापूर, माढा, मोहोळ आणि
+करमाळा तालुका आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view17"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info17"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t17"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img18"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_yamai_devi_mandir" />
+
+                    <TextView
+                        android:id="@+id/item_name18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img18"
+                        android:fontFamily="@font/secular_one"
+                        android:text="18) यमाई देवीचे मंदिर ( मार्डी )"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name18"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img18"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="मार्डी"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location18"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tमार्डी येथे यमाई देवीचे पुरातन मंदिर आहे. रंगनाथ स्वामी गोसावी यांनी ८०० वर्षांपूर्वी मंदिरात यमाई देवीची प्राणप्रतिष्ठा
+केली होती. मार्डी येथील यमाई देवी तुळजापूरच्या तुळजाभवानी आईची मोठी बहीण म्हणून ओळखली जाते. साक्षात
+आदिशक्तीच्या वास्तव्यामुळे मार्डीला शक्तीपीठांचा वारसा लाभला आहे. तुळजाभवानीच्या दर्शनानंतर यमाई देवीचे दर्शन
+घेण्याची परंपरा भाविक पाळतात. गुलबर्गा जिल्ह्यातील शेडम चीतापूर जवळील रंगनाथ स्वामी गोसावी हे देवीचे निस्सिम
+भक्त होवून गेले."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view18"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info18"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t18"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img19"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_machnur" />
+
+                    <TextView
+                        android:id="@+id/item_name19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img19"
+                        android:fontFamily="@font/secular_one"
+                        android:text="19) माचणुर"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name19"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img19"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="माचणूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location19"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tमाचणुर (ता. मंगळवेढा) येथे भीमा नदीकाठावर कडेकपारीत प्राचीनकाली हेमाडपंती भव्य असे देखने श्री सिद्धेश्वराचे मंदिर
+असून, श्रावण मासानिमित्त येथे महिनाभर भाविकांची रेलचेल सुरु असते.  सोलापुरपासून ४०किलोमीटर व मंगळवेढ़यापासून
+१४ किलोमीटर अंतरावर माचणुर तीर्थक्षेत्र आहे.लाखों भक्ताचे श्रद्धास्थान असलेेल्या या मंदिरास महाराष्ट्र, कर्नाटक,
+आंध्रप्रदेश, गोवा आदी भागातुन भाविक मोठ्या प्रमाणात येत असतात. बहु वैभवकुंड पंढरपुर येथील विट्ठलाच्या पदस्पर्शाने
+पावन होवुन माचणुर दिशेला प्रवाहीत होणारी भीमा नदी वाहत आहे. या नदीला येथे चंद्रभागा म्हणून ओळखले जाते. चंद्रभागा
+नदीच्या मध्यावर भूगर्भ रेषेवर माचणुर हे गांव आहे. याच गावाला नाथाचे ठाणे म्हणून ओळखले जाते. येथे प्राचीनकाली
+ऋषिमुनी तपस्येला बसत असत.अहिल्याबाई होळकर यानी नदी कडेच्या बाजुला भव्य असा घाट बांधला आहे.नदीच्या पात्रात
+सुंदर देखने जटाशंकर मंदिर आहे.तरी मंदिराच्या प्रवेशद्वाराकडे जाताना डाव्या बाजूला मल्लिकार्जुन मंदिर व उजव्या बाजूस
+ह.भ.प.बाबा महाराज आर्विकर यांचा मठ आहे.
+माचणूरचा किल्ला :- दक्षिण जिंकण्यासाठी आलेला औरंगजेब मराठ्य़ांच्या हल्ल्यांनी त्रस्त झाला होता. त्यांच्या पासून संरक्षण
+मिळविण्यासाठी औरंगजेबाने ब्रम्हपुरी गावाजवळ भिमा नदीच्या काठी इ.स. १६९५ च्या आसपास किल्ला बांधला. या किल्ल्यात
+मुगल सैन्याची मोठी छावणी होती. औरंगजेब या किल्ल्यात बसून न्यायदान करीत असे.या किल्ल्याच नाव माचणूर कसे पडले
+याबद्दल एक दंतकथा प्रचलित आहे. औरंगजेबाने हा प्रदेश जिंकल्यावर सैनिकांना सिध्देश्वराची पिंड (शिवलींग) फोडण्याची
+आज्ञा केली. त्याकामासाठी गेलेल्या सैनिकांवर भुंग्यांच्या थव्याने हल्ला चढविला, त्यामुळे त्यांना परत फिरावे लागले.
+
+याप्रकारने संतापलेल्या औरंगजेबाने शंकराचा उपमर्द करण्यासाठी त्याला नैवेद्य म्हणून गोमांस पाठवले, पण शंकराच्या
+पिंडीच्या पुढ्यात नैवेद्याचे ताट ठेवून त्यावरील कापड बाजूला केल्यावर गोमांसाच्या जागी पांढरी फूले दिसली.(त्यामुळे या
+ठिकाणाला मास - नूर असे म्हटले जाऊ लागले.पुढे याचाच अपभ्रंश होऊन गावाचे नाव माचणूर झाले.) या सर्व प्रकारामुळे
+औरंगजेब कालावधीण सिध्देश्वर मंदिरास अर्थसहय्य मिळत आहे.
+सिध्देश्वर मंदिर :- माचंणूर गावात प्रवेश केल्यावर प्रथम सिध्देश्वर मंदिर समुह लागतो. हा मंदिर समुह काळ्या पाषाणात
+बांधलेला आहे. या मंदिराच्या रचनेत व तुळजापूरच्या मंदिरात साम्य आहे. दगडी प्रवेशव्दातून प्रवेश केल्यावर दोनही बाजूला
+पहारेकर्‍यांसाठी देवड्या आहेत. पुढे प्रशस्त पायर्‍या उतरून दुसर्‍या प्रवेशव्दारापाशी पोहोचता येते. या प्रवेशव्दाराच्या भिंतीत
+दोन बाजूस वीरगळी बसवलेल्या आहेत. मंदिर तटबंदीने वेष्टित असून तटबंदीमध्येच ओवर्‍या काढलेल्या आहेत. मंदिरात ३
+फूटी नंदी आहे. शिवलिंगा पर्यंत जाण्यासाठी २ दार आहेत. त्यातील पहील दार ५ फूट उंचीचे तर दुसरे दार २.५ फूट उंचीचे
+आहे.या खिडकी वजा दरवाजातून बसुनच गाभार्‍यात प्रवेश करावा लागतो. मंदिराच्या मागिल बाजूस नदीवर दगडी प्रशस्त
+घाट बांधलेला आहे.भव्य असे नदी पात्रामधे जटाशंकराचे मंदिर आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view19"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info19"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t19"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img20"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_ujani_dharan" />
+
+                    <TextView
+                        android:id="@+id/item_name20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img20"
+                        android:fontFamily="@font/secular_one"
+                        android:text="20) उजनी धरण"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name20"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img20"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="उजनी"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location20"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tभीमा धरण किंवा भीमा सिंचन प्रकल्प या नावाने ओळखल्या जाणाऱ्या उजनी धरण हे भीमा नदी वरील कृष्णा नदीची उपनदी
+आहे. हे महाराष्ट्रातील सोलापूर जिल्ह्यातील माढा तालुक्याच्या उजनी गावाजवळ असलेले एक चिनाकृती गुरुत्व धरण आहे.
+विशेष म्हणजे हे धरण सोलापूर जिल्ह्यात असून या जिल्ह्यात थोडसुद्धा पाऊस नाही पडला तरी हे धरण 100%भरते त्याचे
+कारण पुणे जिल्ह्यातील पश्चिम भागात पडणारा भरपूर पाऊस हे आहे. उजनी धरण ज्या भीमा नदीवर बांधले गेले आहे, ती
+नदी पश्चिम घाटातील भीमाशंकर टेकड्यांमधून उगम पावते, ज्यास सह्याद्री डोंगराची रांग देखील म्हटले जाते. कर्नाटकातील
+रायचूर जिल्ह्यात रायचूरजवळ 7२25 किमी (50 (० मैल) अंतर पार करून हि नदी  कृष्णा नदीला मिळते.भीमा नदीच्या
+पात्रात कुंडली नदी, कुंडला नदी, घोड नदी, भामा नदी, इंद्रायणी नदी, मुळा नदी, मुठा नदी, पावना नदी, बोरी, सीना, माण,
+भोगवती आणि नीरा या मुख्य उपनद्या आहेत. भीमा नदीच्या पात्रातील 48,631 किमी (18,777 चौरस मैल) जलवाहिनी,
+एक आंतरराज्य नदी पात्र, महाराष्ट्र (75%) आणि कर्नाटक (25%) या दोन्ही राज्यांचा समावेश आहे, त्यापैकी 14,858 किमी
+(5,737 चौरस मैल) नाले आहेत. नदीचे खोरे उत्तर, मध्य आणि दक्षिण तीन विभागांमध्ये विभागले गेले आहे, नदीचे मुख्य
+स्टेम भीमा धरण बांधलेल्या मध्यभागी आहे, तर दक्षिण विभागात पाच जलाशयांचे वर्चस्व आहे. धरणाच्या वरील खोऱ्यात 
+तीव्र ग्रामीण, कृषी, शहरी आणि औद्योगिक उपक्रम आहेत. पश्चिमेकडून पूर्वेकडे उतार असलेल्या नदीपात्रात अत्यंत
+शारीरिक आणि कृषी-हवामानातील फरक आहेत. ड्रेनेज खोऱ्यात  आणि सुपीक शेती आहे आणि तिच्या नदी प्रणालीवर अनेक
+जलसंपदा विकास प्रकल्प तयार केले गेले आहेत.क्षमतेच्या बाबतीतला या धरणाचा क्रमांक कोयना व जायकवाडी यांच्याआधी
+पहिला लागतो. या धरणात पोचणारे पाणी थेट पुण्याच्या मुळामुठा सारख्या अनेक नद्यांमधून येते. एवढी मोठी जलक्षमता
+असलेला हा तलाव असल्याने येथे मत्स्यपालनाचा व्यवसाय ही मोठ्या प्रमाणात चालतो. या धरणाच्या जलाशयास
+यशवंतसागर म्हणतात. फ्लेमिंगो (रोहित) हा परदेशी पक्षी हिवाळ्यात या जलाशयावर येतो.या जलाशयातील पाण्याचा
+पुणे,सोलापूर आणि अहमदनगर या तीन जिल्ह्यांतील शेतीला भरपूर फायदा झाला आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view20"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info20"
                         android:layout_marginTop="10dp"
                         android:background="@color/colorSecondary"
                         android:clickable="true"
