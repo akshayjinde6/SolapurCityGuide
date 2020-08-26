@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "463924631387",
+    "firebase_url": "https://mh13aplasolapur.firebaseio.com",
+    "project_id": "mh13aplasolapur",
+    "storage_bucket": "mh13aplasolapur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463924631387:android:b01a9d5a3f47c528462c7e",
+        "android_client_info": {
+          "package_name": "com.pravingaikwad.solapurcityguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463924631387-npdbtv5qk3ba5vplg9b22m2a0vfkbkfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pravingaikwad.solapurcityguide",
+            "certificate_hash": "d7f3fe060afb498ef07a8f3b11454908dfb792db"
+          }
+        },
+        {
+          "client_id": "463924631387-hq7ghohpq0i2gfq4qp51ruooe7r0oq9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjttpF3ID2ZTC1qfjyIhgeVZAncRd1cLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463924631387-hq7ghohpq0i2gfq4qp51ruooe7r0oq9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
