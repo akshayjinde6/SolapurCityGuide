@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodRes">
+
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/gradient_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/app_name1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/top_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:fontFamily="@font/secular_one"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="* स्थानिक कॅफे आणि रेस्टॉरंट्स *"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_heading"
+        android:fontFamily="@font/secular_one"
+        android:padding="40dp"
+        android:text="*स्थानिक कॅफे आणि रेस्टॉरंट्स साठी खालील पैकी कोणत्याही एका फूड डिलिव्हरी अँप मध्ये जाऊन बघू शकता व ऑनलाइन ऑर्डर हि करू शकता"
+        android:textColor="@color/colorSecondaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/zomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/note"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zomato" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Zomato - Solapur food\nand Restaurants"
+            android:textColor="@color/colorSecondaryDark"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/swiggy_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zomato"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/swiggy" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Swiggy - Solapur food\nand Restaurants"
+            android:textColor="@color/colorSecondaryDark"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

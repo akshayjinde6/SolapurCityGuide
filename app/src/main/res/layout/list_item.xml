@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="10dp">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="8dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
         app:cardElevation="8dp">
 
         <RelativeLayout
@@ -27,7 +30,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/location"
+                android:id="@+id/_item_location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/item_name"
@@ -40,10 +43,10 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/contact"
+                android:id="@+id/item_contact"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/location"
+                android:layout_below="@id/_item_location"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="15dp"
                 android:drawableLeft="@drawable/ic_baseline_phone_24"
@@ -56,19 +59,12 @@
                 android:id="@+id/view"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_below="@id/contact"
-                android:background="@color/colorSecondary" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@id/contact"
-                android:padding="8dp"
-                android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+                android:layout_below="@id/item_contact"
+                android:background="@color/colorPrimary" />
 
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 
-</RelativeLayout>
+
+</LinearLayout>

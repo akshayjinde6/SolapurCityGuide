@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pravingaikwad.solapurcityguide">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SocialMedia"></activity>
+        <activity android:name=".FoodRes"></activity>
+        <activity android:name=".IMPOffices" />
+        <activity android:name=".ToursTravels" />
+        <activity android:name=".SchoolCollege" />
+        <activity android:name=".Hotels" />
+        <activity android:name=".Hospitals" />
+        <activity android:name=".SocialMedia" />
         <activity android:name=".Talent" />
         <activity android:name=".Link" />
         <activity android:name=".Tourism" />

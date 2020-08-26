@@ -54,10 +54,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/secular_one"
-                android:padding="12dp"
+                android:padding="10dp"
                 android:text="*अक्कलकोट, पंढरपूर, तुळजापूर, मंगळवेढा येथे जाण्यासाठी १५ मिनिटाच्या अंतराने तर पुणे, मुंबईसाठी दर अर्ध्या तासाने बस उपलब्ध आहे"
                 android:textColor="@color/colorSecondaryDark"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <View
                 android:layout_width="match_parent"

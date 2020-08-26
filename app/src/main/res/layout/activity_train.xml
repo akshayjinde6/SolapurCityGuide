@@ -47,6 +47,7 @@
         android:layout_below="@id/top_heading">
 
         <RelativeLayout
+            android:animateLayoutChanges="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -59,6 +60,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -148,6 +150,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -248,6 +251,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -349,6 +353,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -437,6 +442,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -530,6 +536,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -578,14 +585,14 @@
                         android:layout_marginBottom="15dp"
                         android:fontFamily="@font/secular_one"
                         android:text="\t\t\t\tडॉ. बाबासाहेब आंबेडकर यांच्या अस्थी महाराष्ट्रात तीन ठिकाणी आहेत. नागपूरमध्ये दीक्षाभूमी, मुंबईत चैत्यभूमी तर
-सोलापुरात प्रेरणाभूमी आहे. बुधवार पेठेतल्या मिलिंदनगरात अतिशय सुंदर असे हे विहार साकारले आहे. सोलापूरसंदर्भातील
-मुख्य घटना-घडामोडी शिल्पांच्या स्वरूपात मांडण्यात आल्या. त्यामुळे विहार अधिक बोलके झाले आहे.
-या ठिकाणी अनेक दुर्मिळ छायाचित्रे आहेत. यात 22 सप्टेंबर 1924 रोजी हरिभाऊ तोरणे गुरुजी यांनी बाबासाहेबांना दिलेले
-पत्र, 24 जानेवारी 1937 रोजी बाबासाहेब जीवप्पा ऐवाळे यांच्या प्रचारासाठी सोलापुरात आले असताना रेल्वे स्टेशनवरील
-स्वागताचे छायाचित्र, 23 फेब्रुवारी 1939 रोजी सोलापुरात महारमांग वतनदार परिषद कार्यकर्त्यांसोबत, 6 ऑगस्ट 1950
-पंढरपुरात चोखामेळा बोर्डिंग विश्वस्त जबाबदारी स्वीकारताना, कुर्डुवाडी रेल्वे स्टेशन येथे कार्यकर्त्यांसोबत, माढा तालुक्यातील
-भोसरे येथील शंकरराव रिकोबे यांनी घेतलेली बाबासाहेबांची भेट, भारतरत्न पदक स्वीकारताना माईसाहेब, वळसंग येथील
-विहिरीस बाबासाहेबांनी दिलेली भेट यांसह 15 छायाचित्रे आहेत."
+    सोलापुरात प्रेरणाभूमी आहे. बुधवार पेठेतल्या मिलिंदनगरात अतिशय सुंदर असे हे विहार साकारले आहे. सोलापूरसंदर्भातील
+    मुख्य घटना-घडामोडी शिल्पांच्या स्वरूपात मांडण्यात आल्या. त्यामुळे विहार अधिक बोलके झाले आहे.
+    या ठिकाणी अनेक दुर्मिळ छायाचित्रे आहेत. यात 22 सप्टेंबर 1924 रोजी हरिभाऊ तोरणे गुरुजी यांनी बाबासाहेबांना दिलेले
+    पत्र, 24 जानेवारी 1937 रोजी बाबासाहेब जीवप्पा ऐवाळे यांच्या प्रचारासाठी सोलापुरात आले असताना रेल्वे स्टेशनवरील
+    स्वागताचे छायाचित्र, 23 फेब्रुवारी 1939 रोजी सोलापुरात महारमांग वतनदार परिषद कार्यकर्त्यांसोबत, 6 ऑगस्ट 1950
+    पंढरपुरात चोखामेळा बोर्डिंग विश्वस्त जबाबदारी स्वीकारताना, कुर्डुवाडी रेल्वे स्टेशन येथे कार्यकर्त्यांसोबत, माढा तालुक्यातील
+    भोसरे येथील शंकरराव रिकोबे यांनी घेतलेली बाबासाहेबांची भेट, भारतरत्न पदक स्वीकारताना माईसाहेब, वळसंग येथील
+    विहिरीस बाबासाहेबांनी दिलेली भेट यांसह 15 छायाचित्रे आहेत."
                         android:textColor="@color/colorPrimary"
                         android:textSize="14sp"
                         android:visibility="gone" />
@@ -623,6 +630,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -713,6 +721,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -815,6 +824,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -908,6 +918,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1006,6 +1017,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1100,6 +1112,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1196,6 +1209,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1286,6 +1300,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1400,6 +1415,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1487,6 +1503,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1590,6 +1607,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1690,6 +1708,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1779,6 +1798,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1889,6 +1909,7 @@
                 app:cardElevation="8dp">
 
                 <RelativeLayout
+                    android:animateLayoutChanges="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -1963,6 +1984,1117 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_below="@id/info20"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t20"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img21"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_akluj_waterpark" />
+
+                    <TextView
+                        android:id="@+id/item_name21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img21"
+                        android:fontFamily="@font/secular_one"
+                        android:text="21) सयाजीराजे वॉटर पार्क ( अकलूज )"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name21"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img21"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="अकलूज"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location21"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tसयाजीराजे पार्क, करमणुकीचे एक आश्चर्यकारक जग, कुशलतेने तयार केले गेले आहे आणि संसाधनांची नैसर्गिक उपलब्धता
+आणि कृत्रिम संरचना यांच्या संयोजनावर आधारित आहे.वॉटर पार्क, अ‍ॅम्यूझमेंट पार्क, चिल्ड्रन पार्क, बोटिंग आणि सफारी
+पार्क आणि सोलापूर जिल्ह्यातील सर्वात प्रसिद्ध पर्यटन स्थळ एक आणि फक्त अ‍ॅडव्हेंचर पार्क या सुविधांचा आनंद
+घेण्यासाठी पर्यटकांना आकर्षित करणारे मनोरंजनाचे विश्व. हे केवळ मनोरंजन सुविधाच नाही तर ग्रामीण संस्कृतीची झलक
+देखील देते. या उद्यानात महिला, ज्येष्ठ नागरिक आणि मुलांसाठी स्वतंत्र करमणुकीची सुविधा उपलब्ध आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view21"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info21"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t21"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img22"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_kamladevi_mandir" />
+
+                    <TextView
+                        android:id="@+id/item_name22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img22"
+                        android:fontFamily="@font/secular_one"
+                        android:text="22) करमाळ्याच्या कमला देवीचे मंदिर"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name22"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img22"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="करमाळा"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location22"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tश्री कमला देवीच्या मंदिरामुळे करमाळा शहर प्रसिध्द झाले आहे. ह्या मंदिरात ९६ ह्या संख्येला विशेष महत्व आहे. श्री राव
+राजे निंबाळकर यांनी १७२७ मध्ये श्री कमला भवानीचे मंदिर बांधले. करमाळ्याच्या कमला देवीच्या मंदिराला तुळजापूरच्या
+तुळजा भवानीचे दुसरे पीठ असे संबोधले जाते. हेमाड पंथी शैलीत बांधलेल्या ह्या मंदिराला दक्षिणपूर्व व उत्तर दिशेला प्रवेश
+द्वार आहेत. ह्या मंदिराची विशेषता म्हणजे  मंदिरासमोर असलेल्या विहिरीला ९६ पायऱ्या आहेत.  मंदिरात ९६ ओवऱ्या
+आहेत.  मंदिरातील छतावर ९६ चित्र रेखाटले आहेत. मंदिरात एकूण ९६ खांब आहेत.  देवीचा नवरात्र उत्सव मोठ्या
+भक्तिभावाने साजरा केला जातो. वार्षिक यात्रा कार्तिक पौर्णिमा ते चतुर्थी च्या काळात साजरा केला जातो."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view22"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info22"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t22"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img23"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_hattarsang_kudal" />
+
+                    <TextView
+                        android:id="@+id/item_name23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img23"
+                        android:fontFamily="@font/secular_one"
+                        android:text="23) हत्तरसंग कुडल"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name23"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img23"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="करमाळा"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location23"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tहत्तरसंग कुडलसंगम हे महाराष्ट्राच्या सोलापूर जिल्ह्यामधील दक्षिण सोलापूर तालुक्यात असलेले स्थळ आहे. कुडल शब्द
+कन्नड असून त्याचा अर्थ संगम असा आहे. येथे भीमा व सीना या दोन नद्यांचा संगम असून तेथे अत्यंत
+जुनी हेमाडपंती संगमेश्वर आणि हरिहरेश्वर मंदिरे आहेत. संगमेश्वर मंदिराच्या सभामंडपाच्या तुळईवर इ.सन.१०१८ (शके
+९४०)मध्ये कोरलेला पहिला मराठी शिलालेख आहे.सोलापुरातील इतिहास संशोधक आनंद कुंभार यांनी हा शिलालेख शोधून
+काढला. हा शिलालेख ‘माय मराठी’च्या उत्पत्ती संशोधनात महत्त्वाचा गाभा ठरतो आहे. १०१८ साली कोरण्यात आलेला हा
+शिलालेख मराठी भाषेतील आद्यग्रंथ श्री ज्ञानेश्वरीपेक्षा १८२ वर्षे जुना आहे. संशोधक कुंभार यांनी दिलेल्या शिलालेखाच्या
+पुराव्याला पुण्याचे इतिहास संशोधक डॉ. शं. गो. तुळपुळे व वि.ल. भावे यांनीही पुष्टी दिली आहे व हा शिलालेख सर्वात पुरातन
+
+असल्याचे प्रतिपादन केले आहे.हा शिलालेख सापडण्यापूर्वी मराठीतील सर्वात जुना शिलालेख कर्नाटकातील श्रवणबेळगोळ
+येथील श्री गोमटेश्वराच्या पायाजवळ असल्याचे मानण्यात येत होते. परंतु तो लेख इ.स १०३९ (शके ९०५) वर्षातील होता.या
+कुडलसंगम येथील शिलालेखाची लांबी ९४ सेंमी तर रुंदी १६ सेंमी आहे. तुळईची शिळा घडीव असून खोदण्यापूर्वी ती घासून
+गुळगळीत करून घेतल्याचे दिसते. शिलालेखावरील अक्षरांची उंची सुमारे एक सेंमी आहे. यावर कोरलेला हा अंक नागमोडी
+वळणातील त्या काळातील लिपीतील असल्याने बोध होत नाही. पण नागपूरचे डॉ. वा. वि. मिराशी यांनी अशाच प्रकारचा अंक
+दिवेआगार येथील ताम्रपटात आहे असे स्पष्ट केले आहे.
+असा आहे उल्लेख :- हत्तरसंग कुडलसंगम येथील या शिलालेखावर अडीच ओळी लिहिल्या आहेत. पहिली ओळ ‘स्वस्ति श्री
+शके ९४० कालयुक्त संवत्सरे माघ कधनुळिकाळ छेळा’ तर दुसरी ओळ ‘पंडित गछतो आयाता मछ मि छिमळ नि १०००’ अशी
+संस्कृतमधील आहे. शेवटच्या तिसऱ्या ओळीत ‘यवाछि तो विजेया हो ऐवा’ असे स्पष्ट मराठीत कोरले आहे.
+शिलालेखावरीलसंदेश अर्थपूर्ण आहे.तसेच शिलालेखात एका दानशूराने त्याकाळी चलनात असलेले हजार निष्क देणगी
+दिल्याचा उल्लेख आहे. हाच आद्य मराठी शिलालेख असल्याचे आता सिद्ध झाले आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view23"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info23"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t23"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img24"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_dharshiv_leni" />
+
+                    <TextView
+                        android:id="@+id/item_name24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img24"
+                        android:fontFamily="@font/secular_one"
+                        android:text="24) धाराशिव लेणी"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name24"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img24"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="उस्मानाबाद"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location24"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tउस्मानाबादचे जुने नाव धाराशिव होय. या नावावरूनच आणि पुरातत्त्वीय भाषेत तेथील लेणी धाराशिव लेणी या नावाने
+ओळखली जातात. धाराशिव शहराच्या ईशान्येस सुमारे आठ किलोमीटर अंतरावर बालाघाटच्या डोंगरामध्ये ही लेणी आहेत.
+एका बाजूला चार आणि दुसर्‍या बाजूला तीन अशी एकूण सात लेणी दिसतात.मुनी, कनकामरलिखित करकंडचरिऊ आणि
+बृहत्कथाकोश या ग्रंथात धाराशिव शहराचा आणि धाराशिव लेण्याचा सर्वात प्राचीन उल्लेख आहे. येथे एकंदरीत सात लेणी
+आहेत. त्यापैकी चार लेणी एका बाजूला असून तीन लेणी त्यांना काटकोन करणार्‍या डोंगरात आहेत. प्राचीन लेण्यामध्ये
+धाराशिव लेणीचे स्थान आगळे आहे. परंडा, तेर, तुळजापूर, धाराशिव लेणी या स्थळांना येथून सहज भेट देता येतो. शहराच्या
+बाहेर हातळादेवीचे रम्य मंदिर आहे. हे मंदिर हतलाई नावाने ओळखले जाते. तसेच धारासुरमर्दिनी मंदिर आणि सिद्धेश्वर
+मंदिरसुद्धा पर्यटकांना आकर्षित करते."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view24"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info24"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t24"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img25"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_ramling" />
+
+                    <TextView
+                        android:id="@+id/item_name25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img25"
+                        android:fontFamily="@font/secular_one"
+                        android:text="25) रामलिंग घाट अभयारण्य"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name25"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img25"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="उस्मानाबाद"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location25"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tरामिलग हे उस्मानाबादपासून २० किमी तर बीडपासून ९५ किमी अंतरावरचं ठिकाण. अतिशय सुंदर वन पर्यटन स्थळ. पूर्ण
+परिसर गर्द हिरवाईने नटलेला. दरीत उतरुन गेल्यावर समोर येते ते नव्याने जीर्णोद्धार झालेले महादेव मंदिर. त्याचं कोरीव
+बांधकाम आणि िभतीवरील देवदेवतांच्या मूर्ती लक्ष वेधतात. महादेव मंदिराकडे तोंड करून एक पितळेचा सुंदर नक्षीकाम
+केलेला नंदी आहे. शांत वातावरणात महादेवाचं दर्शन घ्यायंच आणि पावलं पुन्हा हिरव्या वाटांकडे वळवायची. मंदिराला वळसा
+घालून धावणारी नदी  खूपच आवडून जाते. तिच्या पाण्यात पाय टाकून बसण्याचा आनंद काय सांगावा? छोटीशी नदी पण
+नितळ पाणी.महादेवाच्या मंदिरासमोर, नंदीच्या पाठीमागे एक समाधी आहे. त्यावर एका पक्षाला दोन पुरुष हातात धरून उभे
+असल्याचं चित्र कोरलं आहे. रावण व जटायूच्या युद्धात जटायू जखमी झाला. रामाने  जटायूला पाणी पाजण्यासाठी इथे एक
+
+बाण मारला. त्यामुळे तिथे एक गुहा तयार झाली आणि तिथून पाण्याची धार वाहू लागली. इथेच जटायूचा मृत्यू झाला. ही
+समाधी जटायू पक्ष्याची आहे अशी आख्यायिका सांगतीली जाते.उन्हाळ्यात या पाण्याची धार लहान होत जाते.  पण
+पावसाळ्यात याच रामबाणातून पाण्याचा मोठा प्रपात कोसळत राहातो. हा धबधबा पाहण्यासाठी, येथील महादेवाचं आणि
+जटायूचं दर्शन घेण्यासाठी भक्तगण मोठय़ा संख्येने येथे येतात. हा परिसर खूप हिरवागार आणि जैवविविधतेने संपन्न आहे.
+त्याचे रक्षण व्हावे म्हणून शासनाने १९९७ मध्ये २२३७.४६ हेक्टर क्षेत्राला रामिलग घाट अभयारण्य म्हणून घोषित केले.
+उस्मानाबाद जिल्ह्यतलं हे स्थळ पर्यटकांच्या सर्वाधिक पसंतीचं स्थळ आहे.  येथे पक्ष्यांच्या १०० पेक्षा अधिक प्रजाती
+आढळतात. दक्षिण उष्ण कटिबंधीय शुष्क पाणगळीची वने व काटेरी वने या प्रकारात हे वन मोडतं.वन विभागाने विविध
+योजनेअंतर्गत इथे मोठय़ा प्रमाणात वृक्ष लागवड केली आहे. त्या झाडांबरोबर नसíगकरीत्या आढळून येणाऱ्या खैर, धावडा,
+सालई, बोर, बाभुळ, सीताफळ, धामण, आपटा, हिवर, अजंन, साग, चंदन, अर्जुन, सादडा, बेल, मेहसिंग, मोहा, बेहडा या
+वृक्षप्रजातीही येथे आढळतात. अभयारण्यात कोल्हा, लांडगा, तरस, सायाळ, खोकड, रानमांजर, काळवीट, ससे, रानडुक्कर,
+लाल तोंडाची माकडे, मोर असे वन्यजीव पाहू शकतो.उस्मानाबाद जिल्हा अवर्षणप्रवण क्षेत्रात येतो. मात्र पर्जन्यराजाची कृपा
+झाल्याक्षणी हा परिसर कात टाकतो. महाशिवरात्रीला येथे मोठी यात्रा भरते. मंदिराला वळसा घालून वाहणारी नदी, मंदिराच्या
+पाठीमागील बाजूस कोसळणारा धबधबा आणि डोंगराच्या अंगाखांद्यावर असलेल्या झाडीमध्ये इकडून तिकडे उडय़ा मारणारी
+माकडे असं सुंदर वातावरण अनुभवायला मिळतं.  येथे सार्वजनिक बांधकाम विभागाचं विश्रामगृह आहे. अभयारण्याच्या
+मध्यभागी असलेल्या दुर्गादेवी टेकडीवर रेल्वेचं विश्रामगृह आहे. अभयारण्य पाहण्याचा उत्तम कालावधी ऑक्टोबर ते जून असा
+आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view25"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info25"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t25"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img26"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_kunthalgiri" />
+
+                    <TextView
+                        android:id="@+id/item_name26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img26"
+                        android:fontFamily="@font/secular_one"
+                        android:text="26) कुंथलगिरी"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name26"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img26"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="उस्मानाबाद"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location26"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tउस्मानाबाद जिल्ह्यातील कुंथलगिरी. बालाघाटच्या डोंगररांगांनी वेढलेलं भूम तालुक्यातलं जैनधर्मीयांचे तीर्थक्षेत्र. चविष्ट व
+मधाळ पेढ्यासाठीही कुंथलगिरीची ख्याती. औरंगाबाद-सोलापूर रस्त्यावरून जाणारी प्रत्येक एसटी इथं थांबते. कुंथलगिरी
+फाट्यावरून पेढे खरेदी करणं हा नियमच बनून जातो.देशभूषण कुलभूषण यांनी मुनिसुवरनाथनाथ तीर्थंकर यांच्या काळात
+येथून निर्वाण मिळवले. दोघेही एका राज्याचा राजपुत्र होते, काही अनपेक्षित घटनेमुळे दोघांनाही मोक्षप्राप्तीसाठी तपस्वीपणा
+स्वीकारण्याची प्रेरणा मिळाली. कुंथलगिरी येथे त्यांच्या मुक्कामादरम्यान, एकदा राम - सीतासमवेत लक्ष्मण हे 14 वर्षांच्या
+जंगलात वास्तव्य करत असताना जवळच्या जंगलात असतांना त्यांनी डोंगरमाथ्यावर गोंधळ व बरेच भयंकर आवाज ऐकले.
+त्यांना समजले की मागील जीवनाचा शत्रू दोन्ही संतांना त्रास देत आहे, राम = लक्ष्मण नंतर टेकडीवर गेला आणि त्यांना
+अडचणीपासून मुक्त केले (अप्सर्गा). त्याच वेळी दोन्ही तपस्वी संतांनी केलज्ञान (अति नैसर्गिक ज्ञान) आणि तिथूनही
+मोक्षप्राप्ती केली. छोट्या टेकडीवर (150 पायर्‍या) मुख्य मंदिरात देशभूषण आणि कुलभूषण यांच्या पांढर्‍या दगडी मूर्ती
+बसविल्या आहेत. सन 1955 मध्ये चरित्र चक्रवर्ती आचार्य शांतीसागर महाराजांनी येथे समाधी साधली (आत्मीयता आणि
+आत्म शुध्दीकरण राज्यातील शारीरिक अस्तित्व संपवण्यासाठी स्नेहभाव, क्रोध आणि आध्यात्मिक अज्ञान इत्यादी आजारांना
+कमी करणारे) येथे 1955 मध्ये स्मारक बांधले गेले आहे. चंद्रप्रभू मंदिरात, जिथे समाधी झाली. डोंगरावर 7 आणि डोंगराच्या
+पायथ्याशी 4 अशी सर्व 11 मंदिरे आहेत. हे सर्व अद्वितीय आणि पाहण्यासारखे आहेत."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view26"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info26"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t26"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img27"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_ardhnari_nateshwar_mandir" />
+
+                    <TextView
+                        android:id="@+id/item_name27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img27"
+                        android:fontFamily="@font/secular_one"
+                        android:text="27) अर्धनारी नटेश्वर मंदिर ( वेळापूर )"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name27"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img27"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location27"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tदेवगिरी यादवांच्या काळात वेळापूर प्रामुख्याने भरभराटीस आले. यादवांच्या काळापर्यंत वेळापूरचे नांव एकचक्रनगर असे
+होते. यादवकालापासून इ.स.१३०० पासूनचे पुरावे येथे आढळतात. देवगिरीची दक्षिण सीमा म्हणजे वेळापूर. वेळ म्हणजे
+सीमा, पूर म्हणजे भोवती तटबंदी असलेले गांव. यावरून वेळापूर हे नांव या गावास यादवांच्या काळातच मिळाले असे
+जाणकारांच्याकडून सांगितले जाते. वेळापुरचे वैशिष्‍ट्य म्‍हणजे येथील अर्धनारी नटेश्वर मंदिर. ज्‍या मंदिरात नटेश्वर आणि
+पार्वतीची एकत्र मूर्ती पाहायला मिळते. या ठिकाणी राज्‍यभरातून तसेच परराज्‍यातूनही अनेक भाविक दर्शनासाठी गर्दी
+करतात. श्रावण महिना सुरु झाल्‍यानंतर येथे भाविकांची मांदियाळी पाहायला मिळते. हे मंदिर वेळापूर (ता. माळशिसर,
+जिल्‍हा सोलापूर) येथे वसले आहे. श्री अर्धनारी नटेश्‍वर ग्रामदैवताची यात्रा चैत्र पौर्णिमेस होते. शुद्ध पंचमीस हळदी,
+अष्टमीस लग्न व पौर्णिमेस वरात आणि वद्य अष्टमीस सोळावी असा महोत्सव दरवर्षी येथे साजरा केला जातो. या
+कालावधीत विविध स्पर्धांचे आयोजन केले जाते. श्रावण महिन्यात पूजा व विविध अभिषेक केले जातात. यावेळी शिवभक्त
+दर्शनासाठी गर्दी करत असतात. तसेच वेळापूर व परिसरातील कोणत्याही समाजातील लग्न सोहळा असेल तर आधी
+अर्धनारीनटेश्वरास पोषाख अर्पण केला जातो आणि मगच लग्न सोहळा पार पडतो.या मंदिराचा उल्‍लेख तेथीलच
+शिलालेखातील उल्लेख पाहता पूर्वी हे मंदिर होते. पण स्वरूप छोटे म्हणजे मुख्य गाभारा, गाभार्‍यात पिंड व आतील नंदी, तो ही
+उघड्यावर एवढेच असावे. नंतर सर्व बाजूंनी जिर्णोद्धार झाल्यानंतर बाहेरच्या नंदीची प्रतिष्ठापना केली असावी. कारण इतरत्र
+कोणत्याही महादेवाच्या मंदिरासमोर दोन नंदी नाहीत.माणदेश व इतर भागावर लक्ष ठेवण्यासाठी वेळापूर येथे
+उपराजधानीप्रमाणे यादवांचे लष्करी ठाणे होते व यादवांच्या वतीने या ठाण्याचा कारभार बाईदेवराणा हे पहात होते. एक
+मध्यवर्ती लष्करी ठाणे म्हणून वेळापूरला अनन्य साधारण महत्व होते. त्या काळात सर्वच दृष्टीने वेळापूर भरभराटीस आलेले
+होते.त्याकाळात पर्यटनस्थळ म्हणा किंवा सांस्कृतिक केंद्र म्हणा, येथील श्री अर्धनारी नटेश्‍वर मंदिराचा जिर्णोद्धार केला गेला.
+या जिर्णोद्धाराचा संकल्पक बाईदेवराणा होते. स्वतःच्या अधिकारात त्यांनी या मंदिराचा जिर्णोद्धार केला. यादवकालीन
+ मंदिरामुळे वेळापूरला अनन्य साधारण असे महत्व प्राप्त झाले असले तरी पर्यटनदृष्ट्या वेळापूर दुर्लक्षितच राहिले आहे.
+तीर्थक्षेत्र विकास योजने अंतर्गत भक्तनिवास येथे बांधले आहे. येथे येणार्‍या पर्यटकांसाठी त्याचा चांगला उपयोग होत आहे.
+याबरोबरच मल्लसेठीचे स्मारक, अंबाबाई मंदिर, कांचन महाल, नाथ मंदिर, खंडोबा मंदिर, काळा मारूती आदि प्राचिन मंदिरे
+येथे पहायला मिळतात. या मंदिराभोवती उंच जाळीसह संरक्षक भिंत, जमिनीवर दगडी फरशी बसवून तेथील परिसर स्वच्छ
+केला आहे.पुरातन खात्याने १९७० साली मूर्ती संग्रहालय बांधले आहे. या संग्रहालयामध्ये वेळापूर व महाळूंग परिसरातील अनेक
+विरगळ एकत्र केले आहेत. या विरगळा पर्यटकांच्या व वेळापूरच्या दृष्टीने ऐतिहासिक अनमोल ठेवा आहे. या विरगळा अशा
+पद्धतीने ठेवण्यात आल्या आहेत की, त्या विरगळांतून सारेगमपधनीसा या सप्तसुरांची निर्मिती होते.येथे दोन प्रशस्त
+ऐतिहासिक वाडे आहेत, त्यापैकी एक पार्वतीच्या वाड्यात सध्या शाळा बांधण्यात आली आहे. या वाड्यात यादवांचा खजिना
+होता. येथे मंदिरासाठी देणगी स्वीकारली जाई. तसा उल्लेख तेथे सापडलेल्या शिलालेखात आहे. याची नोंद इतिहासकारांनी
+आपल्या संशोधनात नमूद केली आहे. वि.का. राजवाडे, गो. स. सरदेसाई, सेतू माधवराव पगडी, डॉ. तुळपुळे यांच्यासह अनेक
+संशोधकांनी वेळापूरला भेट देवून येथील इतिहास वाचकांपर्यंत पोहोचविण्याचा प्रयत्न केला आहे.  त्यांच्या ग्रंथामध्ये वेळापूरचे
+बरेच उल्लेख आढळून आले आहेत.वेळापूर हे आळंदी-पंढरपूर या श्री संत ज्ञानेश्‍वर महाराज यांच्या पालखी मार्गावर वसलेले एक
+ऐतिहासिक गांव आहे. या गावापासून श्री क्षेत्र पंढरपूर हे केवळ ३२ कि.मी., श्री क्षेत्र सिद्धरामेश्‍वर (सोलापूर) १०० कि.मी., श्री
+क्षेत्र तुळजापूर १५० कि.मी., श्री क्षेत्र अक्कलकोट १५० कि.मी., शिखर शिंगणापूर (मोठा महादेव) ५० कि.मी., श्री क्षेत्र गोंदवले ६०
+
+कि.मी., निरा-भिमा या पवित्र नद्यांच्या संगमावरील श्री क्षेत्र निरा-नरसिंहपूर २५ कि.मी., जैन धर्मियांचे अतिशय क्षेत्र दहिगांव हे
+५० कि.मी. अंतरावर आहे तर पर्यटनाच्या दृष्टीने विकसीत झालेले अकलूज हे केवळ ११ कि.मी. अंतरावर आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view27"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info27"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t27"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img28"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_ardhnari_nateshwar_mandir" />
+
+                    <TextView
+                        android:id="@+id/item_name28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img28"
+                        android:fontFamily="@font/secular_one"
+                        android:text="28) निरा नृसिंहपूर"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name28"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img28"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location28"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tनीरा आणि भिमा या नद्यांच्या संगमावर वसलेले श्री लक्ष्मी नृसिंह हे पुरातन देवस्थान आहे. इंदापूरपासून हे स्थान केवळ 3
+किलोमीटरवर आहे.अष्टकोनी आकारातील चिरेबंदी मंदिराला 33 उंच चिरेबंदी पायर्‍या आहेत. प्रदक्षिणा मार्गावर अनेक
+देवतांची मंदिरे आहेत. मंदिराचा मुख्य गाभारा, पुढे गर्भागार, रंगशिला सभामंडप अशी रचना आहे. ते सर्व दगडी बांधकाम
+खसखशी टाकीचे आहे. दगडी बांधकामाच्या छतावरील देवतांच्या मूर्ती, बेलपाने, नक्षीकाम मनोवेधक आहे. पितळी
+दरवाज्यापुढे लाकडी मंडप असून त्यापुढे भक्त प्रल्हादाचे मंदिर आहे. मंदिराच्या भोवताली नदीपातळीपासून नव्वद फूट
+उंचीचा भव्य तट आहे. नदीपासून मंदिर नव्वद फूट उंच असल्याने तेथे पुराचा धोका नाही. बाहेरच्या तटाला वीटकामाचे दोन
+बुरूज आहेत. त्यामुळे बाहेरून मंदिर किल्ल्यासारखे दिसते. मंदिराच्या मुख्य गर्भागारालगत श्री लक्ष्मीचे छोटे मंदिर आहे.
+नृसिंहमंदिराच्या गर्भगृहावरील शिखर सत्तर फूट उंच आहे. त्यावर सुंदर कलाकुसर आहे. दगडी बाजूवर सुबक शेषशायी
+भगवानाची मूर्तीही आहे. श्री लक्ष्मीमंदिराच्या शिखराच्या पायथ्याशी वर्षभर पाणी ठिबकत असते. त्यास गुप्तगंगा असे म्हटले
+जाते. नीरा, भीमा या गंगा-यमुना तर शिखर पायथ्याची सरस्वती असा हा प्रयागच आहे असे तुकोबांनी या स्थानाचे वर्णन केले
+आहे. नुकतेच राज्यशासनाच्या वतीने तीर्थक्षेत्र विकास योजनेअंतर्गत मंदिराच्या नुतनीकरणाचे काम सुरू आहे.
+संगम स्थानावरुन नदीकाठाने येताना नीरा नदीचे भव्य पात्र व त्याचे अलीकडील उंच कडे रौद्र स्वरुपाने आपले लक्ष वेधून
+घेतात. त्याचबरोबर पलीकडील तीरावरील किल्याप्रमाणे तटबंदी असलेले नृसिंह मंदिर, मंदिराचे उत्तुंग शिखर आणि
+मंदिरालगतचा नीरा नदीवरील विस्तीर्ण घाट यावर आपली नजर खिळून राहाते. एखाद्या चित्रकलावंतास रस्त्यावर थांबून या
+लोभस दृश्यास रंगबद्ध करण्याच्या मोह झाल्याशिवाय राहणार नाही."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view28"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info28"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t28"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img29"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_agnihotra_shivpuri_aashram" />
+
+                    <TextView
+                        android:id="@+id/item_name29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img29"
+                        android:fontFamily="@font/secular_one"
+                        android:text="29) अग्निहोत्राचे उगमस्थान शिवपुरी आश्रम"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name29"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img29"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="सोलापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location29"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tशिवपुरी हे अग्निहोत्राचे उगमस्थान मानले गेले आहे. वैदिक जीवनपद्धतीद्वारे समस्त भूमंडलावर सुखसमृद्धी आणि शांती
+प्रस्थापित व्हावी अशी अग्निहोत्रामागची मूळ संकल्पना आहे. भारतासह जगातील 70 देशांमध्ये अग्निहोत्राचा प्रसार झालेला
+आहे. श्री वटवृक्ष स्वामी महाराज पीठाचे अधिष्ठान लाभलेल्या श्री गजानन महाराज यांनी वायुमंडल शुध्दीसाठी अग्निहोत्र
+यज्ञाचे पुनरुज्जीवन केले. अक्कलकोटमधील शिवपुरीच्या अग्निहोत्र यज्ञाला आंतरराष्ट्रीय स्तरावर मान्यता मिळाली.
+अग्निहोत्र प्रसार आणि संशोधन कार्याबरोबरच शिवपुरीत आयुर्वेदिक शास्त्रीय पंचकर्म केंद्र, अन्नदान, गो संवर्धन, मोफत
+आरोग्य शिबिर आदी चालते. येथे श्री गजानन महाराज समाधी, शिवालय आणि भगवान परशुरामाचे मंदिर यांचे दर्शन लाभते.
+शिवपुरी येथील पवित्र वातावरणात येणार्‍या पर्यटक व भक्तांची वाढती संख्या ध्यानात घेऊन निवासासाठी इको हाऊस
+उभारण्यात आले आहेत, याच्या निर्मितीसाठी सौर उर्जा आणि नैसर्गिक वस्तूंचा म्हणजे माती, चुना, काकवी, गोमय अशा
+वस्तूंचा वापर करण्यात आला आहे. येथे अग्निहोत्र पद्धतीने व नैसर्गिक पद्धातीने शेती केली जाते. येथील नक्षत्र वनात
+
+आयुर्वेदिक व औषधी वनस्पतींचे संवर्धन व संगोपन केले जाते. अग्निहोत्र तसेच आयुर्वेदिक पंचकर्म उपचारासाठी जगभरातील
+साधक या ठिकाणी येतात. दरवर्षी शिवपुरीत कायरोप्राक्टिक या अमेरिकेतील प्रसिद्ध उपचारपद्धतीचे शिबिर आयोजित केले
+जाते आणि त्यासाठी परदेशातून तज्ञ डॉक्टरांची टीम उपस्थित असते. यामध्ये स्नायू, सांधे, हाडांचे आणि मणक्यांचे विकार
+यावर उपचार केले जातात. ही एक विनाऔषध उपचारपद्धती आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view29"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info29"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t29"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img30"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_buddha_vihar" />
+
+                    <TextView
+                        android:id="@+id/item_name30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img30"
+                        android:fontFamily="@font/secular_one"
+                        android:text="30) बुद्ध विहार गुलबर्गा"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name30"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img30"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="गुलबर्गा"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location30"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tबुद्ध विहार हे गुलबर्गा विद्यापीठाजवळील सेडम रोडवरील जिल्हा मुख्यालयापासून 6 कि.मी. अंतरावर आहे. 18 एकरांवर
+पसरलेल्या या ठिकाणी मुख्य इमारत, तळघरात ध्यान केंद्र आणि तळ मजल्यावर भगवान बुद्ध चैत्य (पालीतील मंदिर)
+आहे. पारंपारिक बौद्ध आर्किटेक्चरवर बांधलेले बुद्धविहारचे घुमट 70 फूट उंच आणि व्यासाचे 59 फूट आहे. मुख्य घुमट
+भव्य स्वरुपासाठी संगमरवर टाईल केलेले आहे. घुमटात पंचलोहाने बनविलेले सजावटीचे पायर आहे आणि त्याच्या वर कलश
+असून त्याच्या वर पंढलोहा देखील आहे. राजा अशोक महानच्या सन्मानार्थ चार कोपऱ्यात बुद्ध विहारला चार फूट उंच
+अशोकस्तंभ आहेत. बांधकामाची सुरुवात 2002 मध्ये झाली होती आणि ती मूळतः खूपच लहान असल्याचे समजते. ट्रस्टने ब्लू
+प्रिंट बदलून ते एका विशाल कॉम्प्लेक्स आणि दक्षिण भारतातील सर्वोत्कृष्ट बनविले.भगवान बुद्धाच्या दोन गुंतागुंतीच्या
+कोरीव मूर्ती, गर्भगृहात आणि मंदिराच्या पहिल्या मजल्यावरील गर्भगृहात ठेवल्या आहेत. तळ मजल्यावर, एखाद्याला काळ्या
+दगडापासून खोदलेली व 6 फूट उंच भगवान बुद्ध मूर्ती देखील सापडतील जी अशोक गुडीकरांनी तयार केली आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view30"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info30"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorSecondary"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t30"
+                android:layout_margin="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/img31"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/t_gol_ghumat" />
+
+                    <TextView
+                        android:id="@+id/item_name31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@id/img31"
+                        android:fontFamily="@font/secular_one"
+                        android:text="31) गोलघुमट( विजापूर )"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/location31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/item_name31"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toEndOf="@id/img31"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="विजापूर"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/info31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/location31"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/secular_one"
+                        android:text="\t\t\t\tविजापूर, अधिकृतपणे विजयपुरा म्हणून ओळखले जाते. गोलघुमट भारतातील कर्नाटक राज्याच्या विजापूर शहरातील वास्तू
+आहे. याचे स्थापत्य अशा कौशल्याने केले गेलेले आहे की येथील कक्षिकेतील ध्वनी सात वेळा प्रतिध्वनित होतो . विजापूरचा
+सुलतान मुहम्मद आदिलशाह (१६२६–५६) याने विजापूर या राजधानीच्या ठिकाणी बांधलेली कबर ‘गोलघुमट’ (गुंबद) या
+नावाने ओळखली जाते. या घुमटामध्ये उच्चारित आवाजाचे प्रतिध्वनी साधारणपणे दहा-बारा वेळा स्पष्टपणे ऐकू येतात;
+म्हणून त्यास बोलणारा घुमट या अर्थाने ‘बोलघुमट’ असेही म्हणतात. मुहम्मद आदिलशाहने आपल्या कबरीसाठी प्रारंभी
+इब्राहिम रोझा (सु.१६२६) या पूर्वकालीन कबरीचा आदर्श पुढे ठेवला होता; तथापि इब्राहिम रोझाचे वास्तुरूप अतिशय परिणत
+असल्याने, त्या प्रकारात अधिक सरस वास्तुनिर्मिती करणे अशक्य होते; म्हणून त्याने वास्तुदृष्ट्या सर्वस्वी आगळा व भव्य
+असा हा घुमट उभारला.या घुमटाच्या आखणीनकाशामध्ये (लेआउट प्लॅन) नगारखान्याने युक्त प्रवेशद्वार, मशीद,
+अतिथिगृह, कबर अशा इमारतींचा अंतर्भाव होता; तथापि प्रत्यक्ष रचना पूर्णपणे ह्या आखणीनकाशाप्रमाणे करण्यात आली
+नाही. गोलघुमटाच्या इमारतीचा आराखडा चौकोनी असून आतले क्षेत्रफळ १,७०३·५ चौ.मी. आहे. त्याच्या प्रत्येक बाजूंची रुंदी
+ही वास्तूच्या एकूण घुमटासहित उंचीइतकीच, म्हणजे ६०·९६ मी. आहे. तळघरात मूळ कबर असून, तिच्या जोत्याच्या
+पातळीवर, तिच्याच अनुसंधानाने उपासनेसाठी दुसरी कबर बांधली आहे. कबरीच्या पश्चिमेकडील भिंतीमध्ये एक अर्ध-
+अष्टकोनाकृती महिरप योजली असून, तिच्यायोगे मक्केकडे तोंड करून कुराणपठण करता येते. कबरीच्या चारही कोपऱ्यांवर
+आठ मजली अष्टकोनी मीनार आहेत. प्रत्येक मजला बाह्यांगी तीरांनी तोललेल्या छज्जांनी वेगळा दर्शविला आहे. मीनारांवर
+
+छोटे घुमटाकृती कळस आहेत.कबरीवरील अर्धवर्तुळाकृती घुमटरचना वैशिष्ट्यपूर्ण आहे. प्रत्येक भिंतीचे प्रायः तीन भाग केले
+आहेत (चौकोनात अष्टकोन बसविल्यावर होणारे हे छेद आहेत). त्यांतील मध्यभागात भिंतीच्या रचनेतच भित्तिस्तंभ गुंफून
+त्यावरून बाजूच्या भिंतीवरील स्तंभावर तिरकस कमानी रचल्या आहेत. या गुंफणीमुळे घुमटनिर्मितीसाठी ताराकृती बैठक
+तयार झाली आहे. ही बैठक घुमटाच्या पायथ्यापासून साधारणपणे ३·६५ मी. पुढे येते व एक वर्तुळाकृती सज्जा तयार होतो. हा
+सज्जा जमिनीपासून सु. ३०·४८ मी. अंतरावर आहे. सज्जामध्ये येण्यासाठी भिंतीतून मार्ग काढले आहेत. या ठिकाणीच
+प्रतिध्वनींचा नादचमत्कार प्रत्ययास येतो [ कुजबुजणारे सज्जे]. गोलघुमटाच्या वास्तुशैलीवर विजयानगर वास्तुशैलीची
+अलंकरणदृष्ट्या छाप आहे. तसेच कमानरचनेवर पर्शियन वास्तुशैलीचा प्रभाव आहे.घुमटाचा बाह्य व्यास ४३·८९ मी. आहे. तो
+पायथ्याशी ३·०४ मी. रुंद असून, शिरोभागी २·७४ मी. जाड आहे. या घुमटाने आच्छादलेले एकूण क्षेत्रफळ (सु. १,७०३·५०
+चौ.मी.) रोमच्या पॅंथीऑन या जगातील सर्वांत मोठ्या मानलेल्या घुमटाने आच्छादलेल्या क्षेत्रफळापेक्षाही (सु.१४७०·८८
+चौ.मी.) मोठे आहे. या घुमटाच्या पायथ्याशी उजेडासाठी सहा झरोके आहेत. घुमटाचा उगम एकत्र गुंफलेल्या कमलदलांच्या
+अलंकरणपट्टातून झाल्याचे दर्शविले आहे. घुमट क्षितिजसमांतर वीटरचनेवर असून, त्यास आतून व बाहेरून चुन्याचा
+गिलावा आहे.कबरीच्या दर्शनी भागावर आतील भिंतींमध्ये समावलेल्या स्तंभरचनेचा परिणाम आहे. या स्तंभांनी पाडलेले
+भाग कमानीच्या आकारांनी सुशोभित केले आहेत. साध्या व भव्य वास्तुरचनेचे गोलघुमट हे एक उत्कृष्ट उदाहरण आहे."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view31"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/info31"
                         android:layout_marginTop="10dp"
                         android:background="@color/colorSecondary"
                         android:clickable="true"
