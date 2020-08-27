@@ -64,17 +64,32 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_7"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="हॉस्पिटल आणि \nदवाखाने"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/hospital" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="हॉस्पिटल आणि \nदवाखाने"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -92,17 +107,32 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_1"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="शाळा आणि\nमहाविद्यालये"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/school" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="शाळा आणि\nमहाविद्यालये"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -120,17 +150,32 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_3"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="हॉटेल आणि\nलॉज"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/hotel" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="हॉटेल आणि\nलॉज"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -148,17 +193,32 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_2"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="फूड आणि\nरेस्टॉरंट्स"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/kitchen" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="फूड आणि\nरेस्टॉरंट्स"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -176,17 +236,32 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_6"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="टूर्स आणि\nट्रॅव्हल्स"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/travel" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="टूर्स आणि\nट्रॅव्हल्स"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -204,17 +279,32 @@
             app:cardCornerRadius="32dp"
             app:cardElevation="6dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:background="@drawable/gradient_5"
-                android:fontFamily="@font/secular_one"
-                android:gravity="center"
-                android:text="महत्वाची\nकार्यालये"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/office" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/secular_one"
+                    android:gravity="center"
+                    android:text="महत्वाची\nकार्यालये"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 

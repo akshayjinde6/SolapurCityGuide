@@ -1,16 +1,16 @@
 package com.pravingaikwad.solapurcityguide;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class SocialMedia extends AppCompatActivity {
 
-    LinearLayout fb, insta;
+    LinearLayout fb, insta, whatsapp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class SocialMedia extends AppCompatActivity {
 
         fb = findViewById(R.id.facebook_page);
         insta = findViewById(R.id.insta_page);
+        whatsapp = findViewById(R.id.whatapp);
 
         fb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +32,13 @@ public class SocialMedia extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/mh13.aapla.solapur/"));
+                startActivity(i);
+            }
+        });
+        whatsapp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://api.whatsapp.com/send?phone=919307282629"));
                 startActivity(i);
             }
         });

@@ -23,7 +23,7 @@ public class FoodRes extends AppCompatActivity {
         zomato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.zomato.com/"));
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.zomato.com/solapur?city_id=11397"));
                 startActivity(i);
             }
         });
