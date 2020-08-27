@@ -1,5 +1,7 @@
 package com.pravingaikwad.solapurcityguide;
+import androidx.annotation.Keep;
 
+@Keep
 public class Model {
     String name;
     String address;

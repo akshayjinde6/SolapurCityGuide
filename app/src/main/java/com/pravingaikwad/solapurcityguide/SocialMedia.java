@@ -19,7 +19,7 @@ public class SocialMedia extends AppCompatActivity {
 
         fb = findViewById(R.id.facebook_page);
         insta = findViewById(R.id.insta_page);
-        whatsapp = findViewById(R.id.whatapp);
+        whatsapp = findViewById(R.id.whatsapp);
 
         fb.setOnClickListener(new View.OnClickListener() {
             @Override

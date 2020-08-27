@@ -1,12 +1,12 @@
 package com.pravingaikwad.solapurcityguide;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Talent extends AppCompatActivity {
 
@@ -30,7 +30,7 @@ public class Talent extends AppCompatActivity {
         mail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:pravingaikwad8997@gmail.com"));
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:mh13aaplasolapur@gmail.com"));
                 startActivity(i);
             }
         });

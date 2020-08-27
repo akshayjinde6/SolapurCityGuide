@@ -38,7 +38,7 @@
         android:padding="20dp"
         android:text="* सोलापूर जिल्ह्यातील व जवळील पर्यटन स्थळे *"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <ScrollView
@@ -2726,7 +2726,7 @@
                         android:layout_width="120dp"
                         android:layout_height="80dp"
                         android:layout_margin="10dp"
-                        android:src="@drawable/t_ardhnari_nateshwar_mandir" />
+                        android:src="@drawable/t_nira_nrusinghpur" />
 
                     <TextView
                         android:id="@+id/item_name28"
