@@ -23,7 +23,7 @@
             android:padding="5dp"
             android:text="@string/app_name1"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
     </RelativeLayout>
 
@@ -37,7 +37,7 @@
         android:padding="20dp"
         android:text="* स्थानिक हॉस्पिटल आणि दवाखाने *"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView

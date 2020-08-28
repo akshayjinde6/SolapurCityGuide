@@ -26,7 +26,7 @@
                 android:fontFamily="@font/secular_one"
                 android:text="N B Navale Sinhgad College Of Engineering, Solapur"
                 android:textColor="@color/colorSecondaryDark"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
