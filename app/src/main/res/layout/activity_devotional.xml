@@ -42,10 +42,19 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/dharmik_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/dharmik_ad" />
+
     <GridLayout
+        android:id="@+id/grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/description"
+        android:layout_below="@id/dharmik_ad"
         android:columnCount="2"
         android:padding="10dp"
         android:rowCount="3">

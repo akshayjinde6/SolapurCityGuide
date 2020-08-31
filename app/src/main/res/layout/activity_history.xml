@@ -60,17 +60,26 @@
             android:animateLayoutChanges="true"
             android:orientation="vertical">
 
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/history_ad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/history_ad" />
+
             <TextView
                 android:id="@+id/first"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/name"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
                 android:text="@string/itihas"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="16sp" />
+
 
             <TextView
                 android:id="@+id/itihas"

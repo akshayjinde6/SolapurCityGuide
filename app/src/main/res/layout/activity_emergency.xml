@@ -40,11 +40,19 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/emergency_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_heading"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="@string/emergency_ad" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/top_heading"
-        android:layout_marginTop="20dp">
+        android:layout_below="@id/emergency_ad"
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"

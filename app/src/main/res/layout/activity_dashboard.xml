@@ -406,7 +406,7 @@
                         android:layout_weight="1"
                         android:fontFamily="@font/secular_one"
                         android:gravity="center"
-                        android:text="आपले टॅलेंट दाखवा"
+                        android:text="आपले टॅलेंट\nदाखवा"
                         android:textColor="@android:color/white"
                         android:textSize="16sp"
                         android:textStyle="bold" />

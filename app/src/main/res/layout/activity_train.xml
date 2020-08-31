@@ -41,10 +41,18 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tourism_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_heading"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/tourism_ad" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/top_heading">
+        android:layout_below="@id/tourism_ad">
 
         <RelativeLayout
             android:animateLayoutChanges="true"

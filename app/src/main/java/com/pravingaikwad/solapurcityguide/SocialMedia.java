@@ -8,14 +8,22 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class SocialMedia extends AppCompatActivity {
 
     LinearLayout fb, insta, whatsapp;
+    AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_social_media);
+
+        adView = findViewById(R.id.social_ad);
+        AdRequest request = new AdRequest.Builder().build();
+        adView.loadAd(request);
 
         fb = findViewById(R.id.facebook_page);
         insta = findViewById(R.id.insta_page);

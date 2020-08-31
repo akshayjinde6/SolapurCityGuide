@@ -1,16 +1,20 @@
 package com.pravingaikwad.solapurcityguide;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Link extends AppCompatActivity {
 
     TextView mnc, cop, sop, dc, zp, su, pan, akka, pomo, water;
+    AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +31,10 @@ public class Link extends AppCompatActivity {
         akka = findViewById(R.id.akka);
         pomo = findViewById(R.id.npr);
         water = findViewById(R.id.water);
+
+        adView = findViewById(R.id.link_ad);
+        AdRequest request = new AdRequest.Builder().build();
+        adView.loadAd(request);
 
         mnc.setOnClickListener(new View.OnClickListener() {
             @Override

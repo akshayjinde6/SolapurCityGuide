@@ -8,9 +8,13 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Talent extends AppCompatActivity {
 
     LinearLayout whatsapp, mail;
+    AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +23,10 @@ public class Talent extends AppCompatActivity {
 
         whatsapp = findViewById(R.id.whatapp);
         mail = findViewById(R.id.mail);
+
+        adView = findViewById(R.id.talent_ad);
+        AdRequest request = new AdRequest.Builder().build();
+        adView.loadAd(request);
 
         whatsapp.setOnClickListener(new View.OnClickListener() {
             @Override

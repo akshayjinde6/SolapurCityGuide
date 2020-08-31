@@ -1,14 +1,18 @@
 package com.pravingaikwad.solapurcityguide;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class History extends AppCompatActivity {
 
     TextView itihas, nav, bajar, awa, bhugol, jai, prashashan, itihas_text, nav_text, bajar_text, bhugol_text, jai_text, pra_text, awa_text;
+    AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +33,11 @@ public class History extends AppCompatActivity {
         awa_text = findViewById(R.id.awa_text);
         jai = findViewById(R.id.jai);
         jai_text = findViewById(R.id.jai_text);
+
+
+        adView = findViewById(R.id.history_ad);
+        AdRequest request = new AdRequest.Builder().build();
+        adView.loadAd(request);
 
         itihas.setOnClickListener(new View.OnClickListener() {
             @Override

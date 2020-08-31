@@ -1,15 +1,21 @@
 package com.pravingaikwad.solapurcityguide;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.GridLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class Devotional extends AppCompatActivity {
 
     CardView sid, tuljapur, pan, akka, gan, bar;
+    AdView adView;
+    GridLayout gridView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +28,11 @@ public class Devotional extends AppCompatActivity {
         akka = findViewById(R.id.akkalkot);
         gan = findViewById(R.id.ganangapur);
         bar = findViewById(R.id.barshi);
+        gridView = findViewById(R.id.grid);
+
+        adView = findViewById(R.id.dharmik_ad);
+        AdRequest request = new AdRequest.Builder().build();
+        adView.loadAd(request);
 
         sid.setOnClickListener(new View.OnClickListener() {
             @Override

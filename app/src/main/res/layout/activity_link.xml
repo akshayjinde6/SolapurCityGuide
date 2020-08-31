@@ -40,10 +40,18 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/link_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_heading"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/link_ad" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/top_heading">
+        android:layout_below="@id/link_ad">
 
         <RelativeLayout
             android:layout_width="match_parent"
