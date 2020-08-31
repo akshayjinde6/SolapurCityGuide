@@ -5,6 +5,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +18,9 @@ public class SocialMedia extends AppCompatActivity {
 
     LinearLayout fb, insta, whatsapp;
     AdView adView;
+    RelativeLayout about;
+    TextView textView;
+    ScrollView scrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +30,18 @@ public class SocialMedia extends AppCompatActivity {
         adView = findViewById(R.id.social_ad);
         AdRequest request = new AdRequest.Builder().build();
         adView.loadAd(request);
+
+        about = findViewById(R.id.about);
+        textView = findViewById(R.id.top_heading);
+        scrollView = findViewById(R.id.scroll);
+
+        Intent i = getIntent();
+        String key = i.getStringExtra("key");
+        if (key.equals("about")) {
+            textView.setVisibility(View.GONE);
+            scrollView.setVisibility(View.GONE);
+            about.setVisibility(View.VISIBLE);
+        }
 
         fb = findViewById(R.id.facebook_page);
         insta = findViewById(R.id.insta_page);

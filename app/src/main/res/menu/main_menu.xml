@@ -9,4 +9,8 @@
         android:id="@+id/feedback"
         android:title="@string/give_us_feedback"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never" />
 </menu>

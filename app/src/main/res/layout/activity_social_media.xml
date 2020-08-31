@@ -27,6 +27,40 @@
 
     </RelativeLayout>
 
+    <RelativeLayout
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/social_ad"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/about_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/secular_one"
+            android:padding="20dp"
+            android:text="\t\t\t\tआम्ही जेव्हा बाहेर गावी जायचो तेव्हा तिकडचे सगळे मित्र विचारत असत
+ काय आहे रे तुमच्या सोलापुरात.??      हा प्रश्न ऐकून आम्हाला कस तरीच वाटायच..कारण सोलापुर व सोलापुर च्या आजु बाजुला खुप काही पर्यटन साठी आहे तरी त्याची ब्रांडिंग करण्यात सोलापुर मागे का आहे ?      याच कल्पनेतून आम्ही एक एप्पलीकेशन तयार करण्याचा निर्णय घेतला आणि ती कल्पना खरोखर उतरावली.        आता आम्ही अभिमानाने बोलू
+         विचारु नकात काय आहे तुमच्या सोलापुरात ,        बघा काय आहे आमच्या सोलापुरात
+        हे एप्पलीकेशन अक्षय जिंदे व प्रविण गायकवाड यांनी तयार केल आहे.        हे करत असताना वेग वेगळी माहिती जमा करण्यात व एप्पलीकेशन तयार करण्यात 20-25 दिवसांचा अवधि गेला.पन कल्पना सत्यता मध्ये उतरली याचा आनंद आहे.\n\n\t\t\t\tआपल्या सोलापुरातील तरुणांनी आपल्या सोलापुर च्या ब्रैंडिंग साठी हे एप्पलीकेशन तयार केल आहे.तरी आपण एक सोलापुरकर म्हणून ते डाउनलोड करावे व सोबतच शेयर सुद्धा करा जेणेकरून सर्व सोलापुरकरांपर्यंत ते एप्प पोहोचेल."
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/about_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/secular_one"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="*All Icons By @Flaticon\n\nSome Photos of\nPranav Photography\nKrishna Relekar\n\nIf we used any of your photos and didn't mentioned just contact us, W'll surely mention your credit here.\n\n~ THANK YOU ~\n\nAll Rights Reserved © Rajaswa Productions."
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
     <TextView
         android:id="@+id/top_heading"
         android:layout_width="match_parent"
@@ -49,6 +83,7 @@
         ads:adUnitId="@string/social_ad" />
 
     <ScrollView
+        android:id="@+id/scroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/social_ad">
