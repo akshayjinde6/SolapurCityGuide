@@ -1,6 +1,5 @@
 package com.pravingaikwad.solapurcityguide;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -12,13 +11,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class ToursTravels extends AppCompatActivity {
 
     RecyclerView recyclerView;
-    ProgressDialog progressDialog;
     private MyAdapter adapter;
+    InterstitialAd interstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,13 +27,9 @@ public class ToursTravels extends AppCompatActivity {
         setContentView(R.layout.activity_tours_travels);
 
         if (!isOnline()) {
-            return;
+            finish();
         }
 
-        progressDialog = new ProgressDialog(this);
-        progressDialog.setTitle("Please Wait...");
-        progressDialog.setCancelable(false);
-        progressDialog.show();
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -43,8 +40,22 @@ public class ToursTravels extends AppCompatActivity {
 
         adapter = new MyAdapter(options);
         recyclerView.setAdapter(adapter);
-        progressDialog.dismiss();
 
+        interstitialAd = new InterstitialAd(this);
+        interstitialAd.setAdUnitId(getString(R.string.interstetial_tours_ad));
+        interstitialAd.loadAd(new AdRequest.Builder().build());
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        try {
+            if (interstitialAd.isLoaded()) {
+                interstitialAd.show();
+            }
+        } catch (Exception ex) {
+            finish();
+        }
     }
 
     @Override

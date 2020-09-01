@@ -8,14 +8,28 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+
 public class FoodRes extends AppCompatActivity {
 
     LinearLayout zomato, swiggy;
+    AdView adView;
+    InterstitialAd interstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_res);
+
+        adView = findViewById(R.id.food_ad);
+        AdRequest request = new AdRequest.Builder().build();
+        adView.loadAd(request);
+
+        interstitialAd = new InterstitialAd(this);
+        interstitialAd.setAdUnitId(getString(R.string.interstetial_food_ad));
+        interstitialAd.loadAd(new AdRequest.Builder().build());
 
         zomato = findViewById(R.id.zomato);
         swiggy = findViewById(R.id.swiggy_page);
@@ -34,5 +48,17 @@ public class FoodRes extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        try {
+            if (interstitialAd.isLoaded()) {
+                interstitialAd.show();
+            }
+        } catch (Exception ex) {
+            finish();
+        }
     }
 }

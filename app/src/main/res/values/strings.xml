@@ -63,4 +63,10 @@
     <string name="talent_ad">ca-app-pub-2810018787727713/6494591785</string>
     <string name="social_ad">ca-app-pub-2810018787727713/8083199140</string>
     <string name="interstetial_main_ad">ca-app-pub-2810018787727713/5549369294</string>
+    <string name="interstetial_school_ad">ca-app-pub-2810018787727713/5461206559</string>
+    <string name="interstetial_hotel_ad">ca-app-pub-2810018787727713/6761652265</string>
+    <string name="interstetial_tours_ad">ca-app-pub-2810018787727713/5565148331</string>
+    <string name="interstetial_food_ad">ca-app-pub-2810018787727713/5373576645</string>
+    <string name="interstetial_office_ad">ca-app-pub-2810018787727713/4990433260</string>
+    <string name="food_banner_ad">ca-app-pub-2810018787727713/2056120491</string>
 </resources>

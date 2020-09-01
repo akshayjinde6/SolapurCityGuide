@@ -12,6 +12,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class Hospitals extends AppCompatActivity {
@@ -19,6 +21,7 @@ public class Hospitals extends AppCompatActivity {
     RecyclerView recyclerView;
     ProgressDialog progressDialog;
     private MyAdapter adapter;
+    InterstitialAd interstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +29,7 @@ public class Hospitals extends AppCompatActivity {
         setContentView(R.layout.activity_hospitals);
 
         if (!isOnline()) {
-            return;
+            finish();
         }
 
         progressDialog = new ProgressDialog(this);
@@ -45,6 +48,22 @@ public class Hospitals extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         progressDialog.dismiss();
 
+        interstitialAd = new InterstitialAd(this);
+        interstitialAd.setAdUnitId(getString(R.string.interstetial_main_ad));
+        interstitialAd.loadAd(new AdRequest.Builder().build());
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        try {
+            if (interstitialAd.isLoaded()) {
+                interstitialAd.show();
+            }
+        } catch (Exception ex) {
+            finish();
+        }
     }
 
     @Override

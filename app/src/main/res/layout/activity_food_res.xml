@@ -111,4 +111,13 @@
 
     </LinearLayout>
 
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/food_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swiggy_page"
+        android:layout_marginTop="40dp"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="@string/food_banner_ad" />
+
 </RelativeLayout>
